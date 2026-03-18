@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Home, History, List, Settings } from 'lucide-react';
+import { Home, LayoutGrid, History, List, Settings } from 'lucide-react';
 import { clsx } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 
@@ -10,8 +10,9 @@ import { twMerge } from 'tailwind-merge';
 export const BottomNav: React.FC = () => {
   const navItems = [
     { to: '/', icon: Home, label: '推荐' },
+    { to: '/board', icon: LayoutGrid, label: '看板' },
     { to: '/reverse', icon: History, label: '倒推' },
-    { to: '/crops', icon: List, label: '作物' },
+    { to: '/crops', icon: List, label: '图鉴' },
     { to: '/settings', icon: Settings, label: '设置' },
   ];
 

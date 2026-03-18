@@ -3,6 +3,7 @@ import { Home } from './pages/Home';
 import { Reverse } from './pages/Reverse';
 import { Crops } from './pages/Crops';
 import { Settings } from './pages/Settings';
+import { FarmBoard } from './pages/FarmBoard';
 import { BottomNav } from './components/BottomNav';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <main className="p-4">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/board" element={<FarmBoard />} />
             <Route path="/reverse" element={<Reverse />} />
             <Route path="/crops" element={<Crops />} />
             <Route path="/settings" element={<Settings />} />

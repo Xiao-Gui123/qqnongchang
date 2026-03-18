@@ -1,0 +1,9038 @@
+[
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 4800,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_46_2.png",
+        "name": "发芽",
+        "seconds": 4800,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_46_3.png",
+        "name": "小叶子",
+        "seconds": 4800,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_46_4.png",
+        "name": "大叶子",
+        "seconds": 7200,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_46_5.png",
+        "name": "初熟",
+        "seconds": 7200,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_46_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 4,
+    "_seed_level": 202,
+    "_thumb": "plant_Crop_46_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": "spine/v2/xiyouzhongzi/1020046",
+    "asset_name": "Crop_46",
+    "exp": 3840,
+    "exp_alter": 2266,
+    "exp_root": 1.6,
+    "fruit": {
+      "count": 96,
+      "id": 40046
+    },
+    "fruit_alter": 72,
+    "fruit_root": 2,
+    "grow_phases": "种子:4800;发芽:4800;小叶子:4800;大叶子:7200;初熟:7200;成熟:0;",
+    "harvestAllOffsetPosition": "5:30;50:-30;150:-75;200:-25;150:-30",
+    "harvestAllSpineRes": "spine/v2/shouge/Crop_sg_final",
+    "harvestOffsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "harvestRandom": true,
+    "id": 1020046,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 60
+    },
+    "mutant": "6:1040046:10",
+    "mutantEffectScale": {
+      "x": 1.75,
+      "y": 1.5
+    },
+    "name": "爱心果",
+    "offsetPosition": {
+      "x": 85,
+      "y": 0
+    },
+    "rare_plant_light_pos": "{\"x\":113,\"y\":125,\"rotation\":0,\"scale\":{\"x\":1,\"y\":1}}",
+    "seasons": 2,
+    "seed_id": 20046,
+    "size": 2
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 4800,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_224_2.png",
+        "name": "发芽",
+        "seconds": 4800,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_224_3.png",
+        "name": "小叶子",
+        "seconds": 4800,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_224_4.png",
+        "name": "大叶子",
+        "seconds": 7200,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_224_5.png",
+        "name": "初熟",
+        "seconds": 7200,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_224_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 3,
+    "_seed_level": 201,
+    "_thumb": "plant_Crop_224_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_224",
+    "exp": 840,
+    "exp_alter": 496,
+    "exp_root": 1.6,
+    "fruit": {
+      "count": 24,
+      "id": 40224
+    },
+    "fruit_alter": 18,
+    "fruit_root": 2,
+    "grow_phases": "种子:4800;发芽:4800;小叶子:4800;大叶子:7200;初熟:7200;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020224,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": "6:1040224:10",
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "昙花",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20224,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 4800,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_249_2.png",
+        "name": "发芽",
+        "seconds": 4800,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_249_3.png",
+        "name": "小叶子",
+        "seconds": 4800,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_249_4.png",
+        "name": "大叶子",
+        "seconds": 7200,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_249_5.png",
+        "name": "花蕾",
+        "seconds": 7200,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_249_6.png",
+        "name": "盛开",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 3,
+    "_seed_level": 201,
+    "_thumb": "plant_Crop_249_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_249",
+    "exp": 840,
+    "exp_alter": 496,
+    "exp_root": 1.6,
+    "fruit": {
+      "count": 24,
+      "id": 40249
+    },
+    "fruit_alter": 18,
+    "fruit_root": 2,
+    "grow_phases": "种子:4800;发芽:4800;小叶子:4800;大叶子:7200;花蕾:7200;盛开:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020249,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": "6:1040249:10",
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "荷包牡丹",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20249,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 4800,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_121_2.png",
+        "name": "发芽",
+        "seconds": 4800,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_121_3.png",
+        "name": "小叶子",
+        "seconds": 4800,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_121_4.png",
+        "name": "大叶子",
+        "seconds": 7200,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_121_5.png",
+        "name": "初熟",
+        "seconds": 7200,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_121_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 2,
+    "_seed_level": 200,
+    "_thumb": "plant_Crop_121_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_121",
+    "exp": 720,
+    "exp_alter": 425,
+    "exp_root": 1.6,
+    "fruit": {
+      "count": 24,
+      "id": 40121
+    },
+    "fruit_alter": 18,
+    "fruit_root": 2,
+    "grow_phases": "种子:4800;发芽:4800;小叶子:4800;大叶子:7200;初熟:7200;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020121,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": "6:1040121:10",
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "蔷薇",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20121,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 4800,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_109_2.png",
+        "name": "发芽",
+        "seconds": 4800,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_109_3.png",
+        "name": "小叶子",
+        "seconds": 4800,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_109_4.png",
+        "name": "大叶子",
+        "seconds": 7200,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_109_5.png",
+        "name": "花蕾",
+        "seconds": 7200,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_109_6.png",
+        "name": "盛开",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 2,
+    "_seed_level": 200,
+    "_thumb": "plant_Crop_109_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_109",
+    "exp": 720,
+    "exp_alter": 425,
+    "exp_root": 1.6,
+    "fruit": {
+      "count": 24,
+      "id": 40109
+    },
+    "fruit_alter": 18,
+    "fruit_root": 2,
+    "grow_phases": "种子:4800;发芽:4800;小叶子:4800;大叶子:7200;花蕾:7200;盛开:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020109,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": "6:1040109:10",
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "蝴蝶兰",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20109,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 4800,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_25_2.png",
+        "name": "发芽",
+        "seconds": 4800,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_25_3.png",
+        "name": "小叶子",
+        "seconds": 4800,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_25_4.png",
+        "name": "大叶子",
+        "seconds": 7200,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_25_5.png",
+        "name": "长枝",
+        "seconds": 7200,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_25_6.png",
+        "name": "成苗",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 2,
+    "_seed_level": 200,
+    "_thumb": "plant_Crop_25_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_25",
+    "exp": 720,
+    "exp_alter": 425,
+    "exp_root": 1.6,
+    "fruit": {
+      "count": 24,
+      "id": 40025
+    },
+    "fruit_alter": 18,
+    "fruit_root": 2,
+    "grow_phases": "种子:4800;发芽:4800;小叶子:4800;大叶子:7200;长枝:7200;成苗:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020025,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": "6:1040025:10",
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "银杏树苗",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20025,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 4800,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_112_2.png",
+        "name": "发芽",
+        "seconds": 4800,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_112_3.png",
+        "name": "小叶子",
+        "seconds": 4800,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_112_4.png",
+        "name": "大叶子",
+        "seconds": 7200,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_112_5.png",
+        "name": "初熟",
+        "seconds": 7200,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_112_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 2,
+    "_seed_level": 200,
+    "_thumb": "plant_Crop_112_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_112",
+    "exp": 720,
+    "exp_alter": 425,
+    "exp_root": 1.6,
+    "fruit": {
+      "count": 24,
+      "id": 40112
+    },
+    "fruit_alter": 18,
+    "fruit_root": 2,
+    "grow_phases": "种子:4800;发芽:4800;小叶子:4800;大叶子:7200;初熟:7200;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020112,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": "6:1040112:10",
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "风信子",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20112,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 30,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_2_3.png",
+        "name": "发芽",
+        "seconds": 30,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_2_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 1,
+    "_thumb": "plant_Crop_2_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_2",
+    "exp": 1,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 5,
+      "id": 40002
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:30;发芽:30;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020002,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "白萝卜",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20002,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 30,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_3_2.png",
+        "name": "发芽",
+        "seconds": 30,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_3_3.png",
+        "name": "小叶子",
+        "seconds": 30,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_3_5.png",
+        "name": "大叶子",
+        "seconds": 30,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_3_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 2,
+    "_thumb": "plant_Crop_3_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_3",
+    "exp": 2,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 10,
+      "id": 40003
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:30;发芽:30;小叶子:30;大叶子:30;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020003,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "胡萝卜",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20003,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 60,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_59_2.png",
+        "name": "发芽",
+        "seconds": 60,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_59_3.png",
+        "name": "幼苗",
+        "seconds": 60,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_59_4.png",
+        "name": "成株",
+        "seconds": 60,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_59_5.png",
+        "name": "卷心",
+        "seconds": 60,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_59_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 3,
+    "_thumb": "plant_Crop_59_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_59",
+    "exp": 5,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 20,
+      "id": 40059
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:60;发芽:60;幼苗:60;成株:60;卷心:60;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020059,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "大白菜",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20059,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 120,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_65_2.png",
+        "name": "发芽",
+        "seconds": 120,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_65_3.png",
+        "name": "幼苗",
+        "seconds": 120,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_65_4.png",
+        "name": "伸长",
+        "seconds": 120,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_65_5.png",
+        "name": "初熟",
+        "seconds": 120,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_65_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 4,
+    "_thumb": "plant_Crop_65_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_65",
+    "exp": 10,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 20,
+      "id": 40065
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:120;发芽:120;幼苗:120;伸长:120;初熟:120;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020065,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "大蒜",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20065,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 300,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_64_2.png",
+        "name": "发芽",
+        "seconds": 300,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_64_3.png",
+        "name": "小叶子",
+        "seconds": 300,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_64_5.png",
+        "name": "大叶子",
+        "seconds": 300,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_64_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 5,
+    "_thumb": "plant_Crop_64_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_64",
+    "exp": 20,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 30,
+      "id": 40064
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:300;发芽:300;小叶子:300;大叶子:300;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020064,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "大葱",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20064,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 480,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_60_2.png",
+        "name": "幼苗",
+        "seconds": 480,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_60_3.png",
+        "name": "秧苗",
+        "seconds": 480,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_60_4.png",
+        "name": "幼穗",
+        "seconds": 480,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_60_5.png",
+        "name": "开花",
+        "seconds": 480,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_60_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 6,
+    "_thumb": "plant_Crop_60_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_60",
+    "exp": 41,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 30,
+      "id": 40060
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:480;幼苗:480;秧苗:480;幼穗:480;开花:480;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020060,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "水稻",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20060,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 720,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_61_2.png",
+        "name": "发芽",
+        "seconds": 720,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_61_3.png",
+        "name": "小叶子",
+        "seconds": 720,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_61_4.png",
+        "name": "大叶子",
+        "seconds": 720,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_61_5.png",
+        "name": "幼穗",
+        "seconds": 720,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_61_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 7,
+    "_thumb": "plant_Crop_61_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_61",
+    "exp": 62,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 40,
+      "id": 40061
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:720;发芽:720;小叶子:720;大叶子:720;幼穗:720;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020061,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "小麦",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20061,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 960,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_4_2.png",
+        "name": "发芽",
+        "seconds": 960,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_4_3.png",
+        "name": "小叶子",
+        "seconds": 960,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_4_4.png",
+        "name": "大叶子",
+        "seconds": 960,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_4_5.png",
+        "name": "开花",
+        "seconds": 960,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_4_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 8,
+    "_thumb": "plant_Crop_4_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_4",
+    "exp": 82,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 40,
+      "id": 40004
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:960;发芽:960;小叶子:960;大叶子:960;开花:960;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020004,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "玉米",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20004,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 1500,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_66_2.png",
+        "name": "发芽",
+        "seconds": 1500,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_66_3.png",
+        "name": "小叶子",
+        "seconds": 1500,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_66_5.png",
+        "name": "大叶子",
+        "seconds": 1500,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_66_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 9,
+    "_thumb": "plant_Crop_66_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_66",
+    "exp": 106,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 60,
+      "id": 40066
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:1500;发芽:1500;小叶子:1500;大叶子:1500;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020066,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "鲜姜",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20066,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 1440,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_5_2.png",
+        "name": "发芽",
+        "seconds": 1440,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_5_3.png",
+        "name": "小叶子",
+        "seconds": 1440,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_5_4.png",
+        "name": "大叶子",
+        "seconds": 1440,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_5_5.png",
+        "name": "初熟",
+        "seconds": 1440,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_5_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 10,
+    "_thumb": "plant_Crop_5_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_5",
+    "exp": 128,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 60,
+      "id": 40005
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:1440;发芽:1440;小叶子:1440;大叶子:1440;初熟:1440;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020005,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "土豆",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20005,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 2250,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_71_2.png",
+        "name": "发芽",
+        "seconds": 2250,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_71_3.png",
+        "name": "小叶子",
+        "seconds": 2250,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_71_5.png",
+        "name": "大叶子",
+        "seconds": 2250,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_71_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 11,
+    "_thumb": "plant_Crop_71_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_71",
+    "exp": 160,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 80,
+      "id": 40071
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:2250;发芽:2250;小叶子:2250;大叶子:2250;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020071,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "小白菜",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20071,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 2160,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_96_2.png",
+        "name": "发芽",
+        "seconds": 2160,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_96_3.png",
+        "name": "小叶子",
+        "seconds": 2160,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_96_4.png",
+        "name": "大叶子",
+        "seconds": 2160,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_96_5.png",
+        "name": "初熟",
+        "seconds": 2160,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_96_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 12,
+    "_thumb": "plant_Crop_96_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_96",
+    "exp": 192,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 80,
+      "id": 40096
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:2160;发芽:2160;小叶子:2160;大叶子:2160;初熟:2160;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020096,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "生菜",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20096,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 3600,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_99_2.png",
+        "name": "发芽",
+        "seconds": 3600,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_99_3.png",
+        "name": "小叶子",
+        "seconds": 3600,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_99_5.png",
+        "name": "大叶子",
+        "seconds": 3600,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_99_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 13,
+    "_thumb": "plant_Crop_99_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_99",
+    "exp": 272,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40099
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:3600;发芽:3600;小叶子:3600;大叶子:3600;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020099,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "油菜",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20099,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 5760,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_6_2.png",
+        "name": "发芽",
+        "seconds": 5760,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_6_3.png",
+        "name": "小叶子",
+        "seconds": 5760,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_6_4.png",
+        "name": "大叶子",
+        "seconds": 5760,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_6_5.png",
+        "name": "开花",
+        "seconds": 5760,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_6_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 14,
+    "_thumb": "plant_Crop_6_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_6",
+    "exp": 544,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40006
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:5760;发芽:5760;小叶子:5760;大叶子:5760;开花:5760;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020006,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "茄子",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20006,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 8640,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_51_2.png",
+        "name": "发芽",
+        "seconds": 8640,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_51_3.png",
+        "name": "小叶子",
+        "seconds": 8640,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_51_4.png",
+        "name": "大叶子",
+        "seconds": 8640,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_51_5.png",
+        "name": "开花",
+        "seconds": 8640,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_51_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 15,
+    "_thumb": "plant_Crop_51_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_51",
+    "exp": 816,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40051
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:8640;发芽:8640;小叶子:8640;大叶子:8640;开花:8640;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020051,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "红枣",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20051,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 17280,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_120_2.png",
+        "name": "小叶子",
+        "seconds": 17280,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_120_3.png",
+        "name": "大叶子",
+        "seconds": 17280,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_120_4.png",
+        "name": "花蕾",
+        "seconds": 17280,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_120_5.png",
+        "name": "盛开",
+        "seconds": 17280,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_120_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 16,
+    "_thumb": "plant_Crop_120_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_120",
+    "exp": 1632,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40120
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:17280;小叶子:17280;大叶子:17280;花蕾:17280;盛开:17280;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020120,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "蒲公英",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20120,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 2880,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_259_2.png",
+        "name": "发芽",
+        "seconds": 2880,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_259_3.png",
+        "name": "小叶",
+        "seconds": 2880,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_259_4.png",
+        "name": "大叶",
+        "seconds": 2880,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_259_5.png",
+        "name": "花蕾",
+        "seconds": 2880,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_259_6.png",
+        "name": "开花",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 17,
+    "_thumb": "plant_Crop_259_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_259",
+    "exp": 288,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40259
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:2880;发芽:2880;小叶:2880;大叶:2880;花蕾:2880;开花:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020259,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "银莲花",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20259,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 5760,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_7_2.png",
+        "name": "发芽",
+        "seconds": 5760,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_7_3.png",
+        "name": "小叶子",
+        "seconds": 5760,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_7_4.png",
+        "name": "大叶子",
+        "seconds": 5760,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_7_5.png",
+        "name": "开花",
+        "seconds": 5760,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_7_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 18,
+    "_thumb": "plant_Crop_7_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_7",
+    "exp": 576,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40007
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:5760;发芽:5760;小叶子:5760;大叶子:5760;开花:5760;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020007,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "番茄",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20007,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 8640,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_98_2.png",
+        "name": "发芽",
+        "seconds": 8640,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_98_3.png",
+        "name": "幼苗",
+        "seconds": 8640,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_98_4.png",
+        "name": "卷心",
+        "seconds": 8640,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_98_5.png",
+        "name": "初熟",
+        "seconds": 8640,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_98_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 19,
+    "_thumb": "plant_Crop_98_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_98",
+    "exp": 864,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40098
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:8640;发芽:8640;幼苗:8640;卷心:8640;初熟:8640;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020098,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "花菜",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20098,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 17280,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_305_2.png",
+        "name": "发芽",
+        "seconds": 17280,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_305_3.png",
+        "name": "小叶子",
+        "seconds": 17280,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_305_4.png",
+        "name": "大叶子",
+        "seconds": 17280,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_305_5.png",
+        "name": "初熟",
+        "seconds": 17280,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_305_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 20,
+    "_thumb": "plant_Crop_305_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_305",
+    "exp": 1728,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40305
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:17280;发芽:17280;小叶子:17280;大叶子:17280;初熟:17280;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020305,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "韭菜",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20305,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 2880,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_105_2.png",
+        "name": "发芽",
+        "seconds": 2880,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_105_3.png",
+        "name": "小叶子",
+        "seconds": 2880,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_105_4.png",
+        "name": "大叶子",
+        "seconds": 2880,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_105_5.png",
+        "name": "初熟",
+        "seconds": 2880,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_105_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 21,
+    "_thumb": "plant_Crop_105_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_105",
+    "exp": 304,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40105
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:2880;发芽:2880;小叶子:2880;大叶子:2880;初熟:2880;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020105,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "小雏菊",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20105,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 5760,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_8_2.png",
+        "name": "发芽",
+        "seconds": 5760,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_8_3.png",
+        "name": "小叶子",
+        "seconds": 5760,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_8_4.png",
+        "name": "大叶子",
+        "seconds": 5760,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_8_5.png",
+        "name": "初熟",
+        "seconds": 5760,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_8_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 22,
+    "_thumb": "plant_Crop_8_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_8",
+    "exp": 608,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40008
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:5760;发芽:5760;小叶子:5760;大叶子:5760;初熟:5760;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020008,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "豌豆",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20008,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 8640,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_37_2.png",
+        "name": "发芽",
+        "seconds": 8640,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_37_3.png",
+        "name": "小叶子",
+        "seconds": 8640,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_37_4.png",
+        "name": "大叶子",
+        "seconds": 8640,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_37_5.png",
+        "name": "开花",
+        "seconds": 8640,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_37_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 23,
+    "_thumb": "plant_Crop_37_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_37",
+    "exp": 912,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40037
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:8640;发芽:8640;小叶子:8640;大叶子:8640;开花:8640;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020037,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "莲藕",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20037,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 17280,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_41_2.png",
+        "name": "发芽",
+        "seconds": 17280,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_41_3.png",
+        "name": "小叶子",
+        "seconds": 17280,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_41_4.png",
+        "name": "大叶子",
+        "seconds": 17280,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_41_5.png",
+        "name": "初熟",
+        "seconds": 17280,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_41_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 24,
+    "_thumb": "plant_Crop_41_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_41",
+    "exp": 1824,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40041
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:17280;发芽:17280;小叶子:17280;大叶子:17280;初熟:17280;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020041,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "红玫瑰",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20041,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 2880,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_161_2.png",
+        "name": "发芽",
+        "seconds": 2880,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_161_3.png",
+        "name": "小叶子",
+        "seconds": 2880,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_161_4.png",
+        "name": "大叶子",
+        "seconds": 2880,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_161_5.png",
+        "name": "花蕾",
+        "seconds": 2880,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_161_6.png",
+        "name": "盛开",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 25,
+    "_thumb": "plant_Crop_161_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_161",
+    "exp": 324,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40161
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:2880;发芽:2880;小叶子:2880;大叶子:2880;花蕾:2880;盛开:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020161,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "秋菊（黄色）",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20161,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 5760,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_110_2.png",
+        "name": "发芽",
+        "seconds": 5760,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_110_3.png",
+        "name": "小叶子",
+        "seconds": 5760,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_110_4.png",
+        "name": "大叶子",
+        "seconds": 5760,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_110_5.png",
+        "name": "花蕾",
+        "seconds": 5760,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_110_6.png",
+        "name": "盛开",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 26,
+    "_thumb": "plant_Crop_110_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_110",
+    "exp": 648,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40110
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:5760;发芽:5760;小叶子:5760;大叶子:5760;花蕾:5760;盛开:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020110,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "满天星",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20110,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 7200,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_143_2.png",
+        "name": "发芽",
+        "seconds": 7200,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_143_3.png",
+        "name": "小叶子",
+        "seconds": 7200,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_143_4.png",
+        "name": "大叶子",
+        "seconds": 7200,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_143_5.png",
+        "name": "花蕾",
+        "seconds": 7200,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_143_6.png",
+        "name": "盛开",
+        "seconds": 7200,
+        "slot": 6
+      },
+      {
+        "img": "plant_Crop_143_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 27,
+    "_thumb": "plant_Crop_143_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_143",
+    "exp": 972,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40143
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:7200;发芽:7200;小叶子:7200;大叶子:7200;花蕾:7200;盛开:7200;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020143,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "含羞草",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20143,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 17280,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_147_2.png",
+        "name": "发芽",
+        "seconds": 17280,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_147_3.png",
+        "name": "小叶子",
+        "seconds": 17280,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_147_4.png",
+        "name": "大叶子",
+        "seconds": 17280,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_147_5.png",
+        "name": "花蕾",
+        "seconds": 17280,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_147_6.png",
+        "name": "盛开",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 28,
+    "_thumb": "plant_Crop_147_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_147",
+    "exp": 1944,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40147
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:17280;发芽:17280;小叶子:17280;大叶子:17280;花蕾:17280;盛开:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020147,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "牵牛花",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20147,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 2880,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_162_2.png",
+        "name": "发芽",
+        "seconds": 2880,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_162_3.png",
+        "name": "小叶子",
+        "seconds": 2880,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_162_4.png",
+        "name": "大叶子",
+        "seconds": 2880,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_162_5.png",
+        "name": "花蕾",
+        "seconds": 2880,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_162_6.png",
+        "name": "盛开",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 29,
+    "_thumb": "plant_Crop_162_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_162",
+    "exp": 344,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40162
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:2880;发芽:2880;小叶子:2880;大叶子:2880;花蕾:2880;盛开:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020162,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "秋菊（红色）",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20162,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 5760,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_1542_2.png",
+        "name": "发芽",
+        "seconds": 5760,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_1542_3.png",
+        "name": "小叶子",
+        "seconds": 5760,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_1542_4.png",
+        "name": "大叶子",
+        "seconds": 5760,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_1542_5.png",
+        "name": "初熟",
+        "seconds": 5760,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_1542_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 30,
+    "_thumb": "plant_Crop_1542_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": "spine/v2/xiyouzhongzi/red packet_tree",
+    "asset_name": "Crop_1542",
+    "exp": 688,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 20,
+      "id": 41542
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:5760;发芽:5760;小叶子:5760;大叶子:5760;初熟:5760;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1021542,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "新春红包",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 21542,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 5760,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_9_2.png",
+        "name": "发芽",
+        "seconds": 5760,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_9_3.png",
+        "name": "小叶子",
+        "seconds": 5760,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_9_4.png",
+        "name": "大叶子",
+        "seconds": 5760,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_9_5.png",
+        "name": "初熟",
+        "seconds": 5760,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_9_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 30,
+    "_thumb": "plant_Crop_9_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_9",
+    "exp": 688,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40009
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:5760;发芽:5760;小叶子:5760;大叶子:5760;初熟:5760;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020009,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "辣椒",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20009,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 8640,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_97_2.png",
+        "name": "发芽",
+        "seconds": 8640,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_97_3.png",
+        "name": "小叶子",
+        "seconds": 8640,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_97_4.png",
+        "name": "大叶子",
+        "seconds": 8640,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_97_5.png",
+        "name": "开花",
+        "seconds": 8640,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_97_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 31,
+    "_thumb": "plant_Crop_97_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_97",
+    "exp": 1032,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40097
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:8640;发芽:8640;小叶子:8640;大叶子:8640;开花:8640;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020097,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "黄瓜",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20097,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 17280,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_306_2.png",
+        "name": "发芽",
+        "seconds": 17280,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_306_3.png",
+        "name": "小叶子",
+        "seconds": 17280,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_306_4.png",
+        "name": "大叶子",
+        "seconds": 17280,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_306_5.png",
+        "name": "初熟",
+        "seconds": 17280,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_306_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 32,
+    "_thumb": "plant_Crop_306_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_306",
+    "exp": 2064,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40306
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:17280;发芽:17280;小叶子:17280;大叶子:17280;初熟:17280;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020306,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "芹菜",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20306,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 2880,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_103_2.png",
+        "name": "发芽",
+        "seconds": 2880,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_103_3.png",
+        "name": "小叶子",
+        "seconds": 2880,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_103_4.png",
+        "name": "大叶子",
+        "seconds": 2880,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_103_5.png",
+        "name": "初熟",
+        "seconds": 2880,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_103_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 33,
+    "_thumb": "plant_Crop_103_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_103",
+    "exp": 368,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40103
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:2880;发芽:2880;小叶子:2880;大叶子:2880;初熟:2880;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020103,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "天香百合",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20103,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 5760,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_10_2.png",
+        "name": "发芽",
+        "seconds": 5760,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_10_3.png",
+        "name": "小叶子",
+        "seconds": 5760,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_10_4.png",
+        "name": "大叶子",
+        "seconds": 5760,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_10_5.png",
+        "name": "初熟",
+        "seconds": 5760,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_10_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 34,
+    "_thumb": "plant_Crop_10_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_10",
+    "exp": 736,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40010
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:5760;发芽:5760;小叶子:5760;大叶子:5760;初熟:5760;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020010,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "南瓜",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20010,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 10800,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_308_2.png",
+        "name": "发芽",
+        "seconds": 10800,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_308_3.png",
+        "name": "小叶子",
+        "seconds": 10800,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_308_5.png",
+        "name": "大叶子",
+        "seconds": 10800,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_308_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 35,
+    "_thumb": "plant_Crop_308_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_308",
+    "exp": 1104,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40308
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:10800;发芽:10800;小叶子:10800;大叶子:10800;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020308,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "核桃",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20308,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 14400,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_91_2.png",
+        "name": "发芽",
+        "seconds": 14400,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_91_3.png",
+        "name": "小叶子",
+        "seconds": 14400,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_91_4.png",
+        "name": "大叶子",
+        "seconds": 14400,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_91_5.png",
+        "name": "开花",
+        "seconds": 14400,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_91_6.png",
+        "name": "初熟",
+        "seconds": 14400,
+        "slot": 6
+      },
+      {
+        "img": "plant_Crop_91_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 36,
+    "_thumb": "plant_Crop_91_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_91",
+    "exp": 2208,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40091
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:14400;发芽:14400;小叶子:14400;大叶子:14400;开花:14400;初熟:14400;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020091,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "山楂",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20091,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 2880,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_73_2.png",
+        "name": "发芽",
+        "seconds": 2880,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_73_3.png",
+        "name": "小叶子",
+        "seconds": 2880,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_73_4.png",
+        "name": "大叶子",
+        "seconds": 2880,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_73_5.png",
+        "name": "初熟",
+        "seconds": 2880,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_73_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 37,
+    "_thumb": "plant_Crop_73_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_73",
+    "exp": 392,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40073
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:2880;发芽:2880;小叶子:2880;大叶子:2880;初熟:2880;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020073,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "菠菜",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20073,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 5760,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_1_2.png",
+        "name": "发芽",
+        "seconds": 5760,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_1_3.png",
+        "name": "小叶子",
+        "seconds": 5760,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_1_4.png",
+        "name": "大叶子",
+        "seconds": 5760,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_1_5.png",
+        "name": "开花",
+        "seconds": 5760,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_1_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 38,
+    "_thumb": "plant_Crop_1_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_1",
+    "exp": 784,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40001
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:5760;发芽:5760;小叶子:5760;大叶子:5760;开花:5760;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020001,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "草莓",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20001,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 8640,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_11_2.png",
+        "name": "发芽",
+        "seconds": 8640,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_11_3.png",
+        "name": "小叶子",
+        "seconds": 8640,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_11_4.png",
+        "name": "大叶子",
+        "seconds": 8640,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_11_5.png",
+        "name": "开花",
+        "seconds": 8640,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_11_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 39,
+    "_thumb": "plant_Crop_11_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_11",
+    "exp": 1176,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40011
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:8640;发芽:8640;小叶子:8640;大叶子:8640;开花:8640;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020011,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "苹果",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20011,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 17280,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_62_2.png",
+        "name": "发芽",
+        "seconds": 17280,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_62_3.png",
+        "name": "小叶子",
+        "seconds": 17280,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_62_4.png",
+        "name": "大叶子",
+        "seconds": 17280,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_62_5.png",
+        "name": "初熟",
+        "seconds": 17280,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_62_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 40,
+    "_thumb": "plant_Crop_62_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_62",
+    "exp": 2352,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40062
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:17280;发芽:17280;小叶子:17280;大叶子:17280;初熟:17280;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020062,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "四叶草",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20062,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 2400,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_104_2.png",
+        "name": "发芽",
+        "seconds": 2400,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_104_3.png",
+        "name": "小叶子",
+        "seconds": 2400,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_104_4.png",
+        "name": "大叶子",
+        "seconds": 2400,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_104_5.png",
+        "name": "花蕾",
+        "seconds": 2400,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_104_6.png",
+        "name": "盛开",
+        "seconds": 2400,
+        "slot": 6
+      },
+      {
+        "img": "plant_Crop_104_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 41,
+    "_thumb": "plant_Crop_104_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_104",
+    "exp": 420,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40104
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:2400;发芽:2400;小叶子:2400;大叶子:2400;花蕾:2400;盛开:2400;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020104,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "非洲菊",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20104,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 5760,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_135_2.png",
+        "name": "发芽",
+        "seconds": 5760,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_135_3.png",
+        "name": "小叶子",
+        "seconds": 5760,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_135_4.png",
+        "name": "大叶子",
+        "seconds": 5760,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_135_5.png",
+        "name": "花蕾",
+        "seconds": 5760,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_135_6.png",
+        "name": "盛开",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 42,
+    "_thumb": "plant_Crop_135_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_135",
+    "exp": 840,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40135
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:5760;发芽:5760;小叶子:5760;大叶子:5760;花蕾:5760;盛开:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020135,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "火绒草",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20135,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 8640,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_141_2.png",
+        "name": "发芽",
+        "seconds": 8640,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_141_3.png",
+        "name": "小叶子",
+        "seconds": 8640,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_141_4.png",
+        "name": "大叶子",
+        "seconds": 8640,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_141_5.png",
+        "name": "花蕾",
+        "seconds": 8640,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_141_6.png",
+        "name": "盛开",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 43,
+    "_thumb": "plant_Crop_141_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_141",
+    "exp": 1260,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40141
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:8640;发芽:8640;小叶子:8640;大叶子:8640;花蕾:8640;盛开:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020141,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "花香根鸢尾",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20141,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 17280,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_142_2.png",
+        "name": "发芽",
+        "seconds": 17280,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_142_3.png",
+        "name": "小叶子",
+        "seconds": 17280,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_142_4.png",
+        "name": "大叶子",
+        "seconds": 17280,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_142_5.png",
+        "name": "花蕾",
+        "seconds": 17280,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_142_6.png",
+        "name": "盛开",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 44,
+    "_thumb": "plant_Crop_142_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_142",
+    "exp": 2520,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40142
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:17280;发芽:17280;小叶子:17280;大叶子:17280;花蕾:17280;盛开:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020142,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "虞美人",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20142,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 2400,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_145_2.png",
+        "name": "发芽",
+        "seconds": 2400,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_145_3.png",
+        "name": "小叶子",
+        "seconds": 2400,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_145_4.png",
+        "name": "大叶子",
+        "seconds": 2400,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_145_5.png",
+        "name": "开花",
+        "seconds": 2400,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_145_6.png",
+        "name": "初熟",
+        "seconds": 2400,
+        "slot": 6
+      },
+      {
+        "img": "plant_Crop_145_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 45,
+    "_thumb": "plant_Crop_145_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_145",
+    "exp": 448,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40145
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:2400;发芽:2400;小叶子:2400;大叶子:2400;开花:2400;初熟:2400;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020145,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "向日葵",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20145,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 5760,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_14_2.png",
+        "name": "发芽",
+        "seconds": 5760,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_14_3.png",
+        "name": "小叶子",
+        "seconds": 5760,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_14_4.png",
+        "name": "大叶子",
+        "seconds": 5760,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_14_5.png",
+        "name": "开花",
+        "seconds": 5760,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_14_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 46,
+    "_thumb": "plant_Crop_14_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_14",
+    "exp": 896,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40014
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:5760;发芽:5760;小叶子:5760;大叶子:5760;开花:5760;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020014,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "西瓜",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20014,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 8640,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_70_2.png",
+        "name": "发芽",
+        "seconds": 8640,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_70_3.png",
+        "name": "小叶子",
+        "seconds": 8640,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_70_4.png",
+        "name": "大叶子",
+        "seconds": 8640,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_70_5.png",
+        "name": "初熟",
+        "seconds": 8640,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_70_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 47,
+    "_thumb": "plant_Crop_70_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_70",
+    "exp": 1344,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40070
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:8640;发芽:8640;小叶子:8640;大叶子:8640;初熟:8640;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020070,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "黄豆",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20070,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 17280,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_15_2.png",
+        "name": "发芽",
+        "seconds": 17280,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_15_3.png",
+        "name": "小叶子",
+        "seconds": 17280,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_15_4.png",
+        "name": "大叶子",
+        "seconds": 17280,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_15_5.png",
+        "name": "开花",
+        "seconds": 17280,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_15_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 48,
+    "_thumb": "plant_Crop_15_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_15",
+    "exp": 2688,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40015
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:17280;发芽:17280;小叶子:17280;大叶子:17280;开花:17280;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020015,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "香蕉",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20015,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 2880,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_100_2.png",
+        "name": "发芽",
+        "seconds": 2880,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_100_3.png",
+        "name": "幼苗",
+        "seconds": 2880,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_100_4.png",
+        "name": "伸长",
+        "seconds": 2880,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_100_5.png",
+        "name": "初熟",
+        "seconds": 2880,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_100_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 49,
+    "_thumb": "plant_Crop_100_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_100",
+    "exp": 476,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40100
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:2880;发芽:2880;幼苗:2880;伸长:2880;初熟:2880;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020100,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "竹笋",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20100,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 5760,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_18_2.png",
+        "name": "发芽",
+        "seconds": 5760,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_18_3.png",
+        "name": "开花",
+        "seconds": 5760,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_18_4.png",
+        "name": "小叶子",
+        "seconds": 5760,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_18_5.png",
+        "name": "大叶子",
+        "seconds": 5760,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_18_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 50,
+    "_thumb": "plant_Crop_18_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_18",
+    "exp": 952,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40018
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:5760;发芽:5760;开花:5760;小叶子:5760;大叶子:5760;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020018,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "桃子",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20018,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 8640,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_47_2.png",
+        "name": "发芽",
+        "seconds": 8640,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_47_3.png",
+        "name": "幼苗",
+        "seconds": 8640,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_47_4.png",
+        "name": "分叶",
+        "seconds": 8640,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_47_5.png",
+        "name": "伸长",
+        "seconds": 8640,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_47_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 51,
+    "_thumb": "plant_Crop_47_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_47",
+    "exp": 1428,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40047
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:8640;发芽:8640;幼苗:8640;分叶:8640;伸长:8640;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020047,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "甘蔗",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20047,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 17280,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_19_2.png",
+        "name": "发芽",
+        "seconds": 17280,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_19_3.png",
+        "name": "小叶子",
+        "seconds": 17280,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_19_4.png",
+        "name": "大叶子",
+        "seconds": 17280,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_19_5.png",
+        "name": "开花",
+        "seconds": 17280,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_19_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 52,
+    "_thumb": "plant_Crop_19_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_19",
+    "exp": 2856,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40019
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:17280;发芽:17280;小叶子:17280;大叶子:17280;开花:17280;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020019,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "橙子",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20019,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 2880,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_128_2.png",
+        "name": "发芽",
+        "seconds": 2880,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_128_3.png",
+        "name": "小叶子",
+        "seconds": 2880,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_128_4.png",
+        "name": "大叶子",
+        "seconds": 2880,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_128_5.png",
+        "name": "花蕾",
+        "seconds": 2880,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_128_6.png",
+        "name": "盛开",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 53,
+    "_thumb": "plant_Crop_128_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_128",
+    "exp": 508,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40128
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:2880;发芽:2880;小叶子:2880;大叶子:2880;花蕾:2880;盛开:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020128,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "茉莉花",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20128,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 5760,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_13_2.png",
+        "name": "发芽",
+        "seconds": 5760,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_13_3.png",
+        "name": "小叶子",
+        "seconds": 5760,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_13_4.png",
+        "name": "大叶子",
+        "seconds": 5760,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_13_5.png",
+        "name": "开花",
+        "seconds": 5760,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_13_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 54,
+    "_thumb": "plant_Crop_13_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_13",
+    "exp": 1016,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40013
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:5760;发芽:5760;小叶子:5760;大叶子:5760;开花:5760;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020013,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "葡萄",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20013,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 8640,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_44_2.png",
+        "name": "长枝",
+        "seconds": 8640,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_44_3.png",
+        "name": "开花",
+        "seconds": 8640,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_44_4.png",
+        "name": "小叶子",
+        "seconds": 8640,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_44_5.png",
+        "name": "大叶子",
+        "seconds": 8640,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_44_6.png",
+        "name": "结果",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 55,
+    "_thumb": "plant_Crop_44_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_44",
+    "exp": 1524,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40044
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:8640;长枝:8640;开花:8640;小叶子:8640;大叶子:8640;结果:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020044,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "丝瓜",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20044,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 17280,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_72_2.png",
+        "name": "发芽",
+        "seconds": 17280,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_72_3.png",
+        "name": "开花",
+        "seconds": 17280,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_72_4.png",
+        "name": "小叶子",
+        "seconds": 17280,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_72_5.png",
+        "name": "大叶子",
+        "seconds": 17280,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_72_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 56,
+    "_thumb": "plant_Crop_72_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_72",
+    "exp": 3048,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40072
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:17280;发芽:17280;开花:17280;小叶子:17280;大叶子:17280;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020072,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "榛子",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20072,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 2880,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_396_2.png",
+        "name": "幼芽",
+        "seconds": 2880,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_396_3.png",
+        "name": "小叶",
+        "seconds": 2880,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_396_4.png",
+        "name": "大叶",
+        "seconds": 2880,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_396_5.png",
+        "name": "花蕾",
+        "seconds": 2880,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_396_6.png",
+        "name": "开花",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 57,
+    "_thumb": "plant_Crop_396_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_396",
+    "exp": 540,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40396
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:2880;幼芽:2880;小叶:2880;大叶:2880;花蕾:2880;开花:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020396,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "迎春花",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20396,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 5760,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_23_2.png",
+        "name": "发芽",
+        "seconds": 5760,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_23_3.png",
+        "name": "小叶子",
+        "seconds": 5760,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_23_4.png",
+        "name": "大叶子",
+        "seconds": 5760,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_23_5.png",
+        "name": "开花",
+        "seconds": 5760,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_23_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 58,
+    "_thumb": "plant_Crop_23_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_23",
+    "exp": 1080,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40023
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:5760;发芽:5760;小叶子:5760;大叶子:5760;开花:5760;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020023,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "石榴",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20023,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 8640,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_95_2.png",
+        "name": "发芽",
+        "seconds": 8640,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_95_3.png",
+        "name": "小叶子",
+        "seconds": 8640,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_95_4.png",
+        "name": "大叶子",
+        "seconds": 8640,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_95_5.png",
+        "name": "开花",
+        "seconds": 8640,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_95_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 59,
+    "_thumb": "plant_Crop_95_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_95",
+    "exp": 1620,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40095
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:8640;发芽:8640;小叶子:8640;大叶子:8640;开花:8640;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020095,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "栗子",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20095,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 17280,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_26_2.png",
+        "name": "发芽",
+        "seconds": 17280,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_26_3.png",
+        "name": "小叶子",
+        "seconds": 17280,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_26_4.png",
+        "name": "大叶子",
+        "seconds": 17280,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_26_5.png",
+        "name": "开花",
+        "seconds": 17280,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_26_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 60,
+    "_thumb": "plant_Crop_26_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_26",
+    "exp": 3240,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40026
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:17280;发芽:17280;小叶子:17280;大叶子:17280;开花:17280;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020026,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "柚子",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 1,
+    "seed_id": 20026,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 3600,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_50_2.png",
+        "name": "发芽",
+        "seconds": 3600,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_50_3.png",
+        "name": "大叶子",
+        "seconds": 3600,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_50_5.png",
+        "name": "初熟",
+        "seconds": 3600,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_50_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 61,
+    "_thumb": "plant_Crop_50_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_50",
+    "exp": 429,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40050
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:3600;发芽:3600;大叶子:3600;初熟:3600;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020050,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "蘑菇",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20050,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 4800,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_27_2.png",
+        "name": "发芽",
+        "seconds": 4800,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_27_3.png",
+        "name": "小叶子",
+        "seconds": 4800,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_27_4.png",
+        "name": "大叶子",
+        "seconds": 7200,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_27_5.png",
+        "name": "开花",
+        "seconds": 7200,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_27_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 62,
+    "_thumb": "plant_Crop_27_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_27",
+    "exp": 858,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40027
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:4800;发芽:4800;小叶子:4800;大叶子:7200;开花:7200;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020027,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "菠萝",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20027,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 7200,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_36_2.png",
+        "name": "发芽",
+        "seconds": 7200,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_36_3.png",
+        "name": "小叶子",
+        "seconds": 7200,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_36_4.png",
+        "name": "大叶子",
+        "seconds": 10800,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_36_5.png",
+        "name": "初熟",
+        "seconds": 10800,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_36_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 63,
+    "_thumb": "plant_Crop_36_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_36",
+    "exp": 1287,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40036
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:7200;发芽:7200;小叶子:7200;大叶子:10800;初熟:10800;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020036,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "箬竹",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20036,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 14400,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_43_2.png",
+        "name": "发芽",
+        "seconds": 14400,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_43_3.png",
+        "name": "小叶子",
+        "seconds": 14400,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_43_4.png",
+        "name": "大叶子",
+        "seconds": 21600,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_43_5.png",
+        "name": "开花",
+        "seconds": 21600,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_43_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 64,
+    "_thumb": "plant_Crop_43_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_43",
+    "exp": 2574,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40043
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:14400;发芽:14400;小叶子:14400;大叶子:21600;开花:21600;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020043,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "无花果",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20043,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 2400,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_29_2.png",
+        "name": "发芽",
+        "seconds": 2400,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_29_3.png",
+        "name": "小叶子",
+        "seconds": 2400,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_29_4.png",
+        "name": "大叶子",
+        "seconds": 3600,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_29_5.png",
+        "name": "初熟",
+        "seconds": 3600,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_29_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 65,
+    "_thumb": "plant_Crop_29_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_29",
+    "exp": 456,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40029
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:2400;发芽:2400;小叶子:2400;大叶子:3600;初熟:3600;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020029,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "椰子",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20029,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 4800,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_49_2.png",
+        "name": "发芽",
+        "seconds": 4800,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_49_3.png",
+        "name": "小叶子",
+        "seconds": 4800,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_49_4.png",
+        "name": "大叶子",
+        "seconds": 7200,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_49_5.png",
+        "name": "初熟",
+        "seconds": 7200,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_49_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 66,
+    "_thumb": "plant_Crop_49_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_49",
+    "exp": 912,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40049
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:4800;发芽:4800;小叶子:4800;大叶子:7200;初熟:7200;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020049,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "花生",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20049,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 7200,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_52_2.png",
+        "name": "发菌",
+        "seconds": 7200,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_52_3.png",
+        "name": "出菇",
+        "seconds": 7200,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_52_4.png",
+        "name": "幼菇",
+        "seconds": 10800,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_52_5.png",
+        "name": "初熟",
+        "seconds": 10800,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_52_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 67,
+    "_thumb": "plant_Crop_52_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_52",
+    "exp": 1368,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40052
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:7200;发菌:7200;出菇:7200;幼菇:10800;初熟:10800;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020052,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "金针菇",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20052,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 14400,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_31_2.png",
+        "name": "发芽",
+        "seconds": 14400,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_31_3.png",
+        "name": "小叶子",
+        "seconds": 14400,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_31_4.png",
+        "name": "大叶子",
+        "seconds": 21600,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_31_5.png",
+        "name": "初熟",
+        "seconds": 21600,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_31_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 68,
+    "_thumb": "plant_Crop_31_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_31",
+    "exp": 2736,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40031
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:14400;发芽:14400;小叶子:14400;大叶子:21600;初熟:21600;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020031,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "葫芦",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20031,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 2400,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_45_2.png",
+        "name": "发芽",
+        "seconds": 2400,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_45_3.png",
+        "name": "小叶子",
+        "seconds": 2400,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_45_4.png",
+        "name": "大叶子",
+        "seconds": 3600,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_45_5.png",
+        "name": "开花",
+        "seconds": 3600,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_45_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 69,
+    "_thumb": "plant_Crop_45_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_45",
+    "exp": 480,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40045
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:2400;发芽:2400;小叶子:2400;大叶子:3600;开花:3600;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020045,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "猕猴桃",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20045,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 4800,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_54_2.png",
+        "name": "发芽",
+        "seconds": 4800,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_54_3.png",
+        "name": "小叶子",
+        "seconds": 4800,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_54_4.png",
+        "name": "大叶子",
+        "seconds": 7200,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_54_5.png",
+        "name": "初熟",
+        "seconds": 7200,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_54_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 70,
+    "_thumb": "plant_Crop_54_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_54",
+    "exp": 960,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40054
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:4800;发芽:4800;小叶子:4800;大叶子:7200;初熟:7200;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020054,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "梨",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20054,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 7200,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_442_2.png",
+        "name": "发芽",
+        "seconds": 7200,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_442_3.png",
+        "name": "小叶子",
+        "seconds": 7200,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_442_4.png",
+        "name": "大叶子",
+        "seconds": 10800,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_442_5.png",
+        "name": "幼株",
+        "seconds": 10800,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_442_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 71,
+    "_thumb": "plant_Crop_442_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_442",
+    "exp": 1440,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40442
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:7200;发芽:7200;小叶子:7200;大叶子:10800;幼株:10800;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020442,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "睡莲",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20442,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 14400,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_33_2.png",
+        "name": "发芽",
+        "seconds": 14400,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_33_3.png",
+        "name": "小叶子",
+        "seconds": 14400,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_33_4.png",
+        "name": "大叶子",
+        "seconds": 21600,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_33_5.png",
+        "name": "初熟",
+        "seconds": 21600,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_33_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 72,
+    "_thumb": "plant_Crop_33_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_33",
+    "exp": 2880,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40033
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:14400;发芽:14400;小叶子:14400;大叶子:21600;初熟:21600;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020033,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "火龙果",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20033,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 2400,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_55_2.png",
+        "name": "发芽",
+        "seconds": 2400,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_55_3.png",
+        "name": "小叶子",
+        "seconds": 2400,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_55_4.png",
+        "name": "大叶子",
+        "seconds": 3600,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_55_5.png",
+        "name": "初熟",
+        "seconds": 3600,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_55_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 73,
+    "_thumb": "plant_Crop_55_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_55",
+    "exp": 510,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40055
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:2400;发芽:2400;小叶子:2400;大叶子:3600;初熟:3600;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020055,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "枇杷",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20055,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 4800,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_34_2.png",
+        "name": "发芽",
+        "seconds": 4800,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_34_3.png",
+        "name": "小叶子",
+        "seconds": 4800,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_34_4.png",
+        "name": "大叶子",
+        "seconds": 7200,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_34_5.png",
+        "name": "开花",
+        "seconds": 7200,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_34_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 74,
+    "_thumb": "plant_Crop_34_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_34",
+    "exp": 1020,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40034
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:4800;发芽:4800;小叶子:4800;大叶子:7200;开花:7200;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020034,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "樱桃",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20034,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 7200,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_413_2.png",
+        "name": "发芽",
+        "seconds": 7200,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_413_3.png",
+        "name": "小叶子",
+        "seconds": 7200,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_413_4.png",
+        "name": "大叶子",
+        "seconds": 10800,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_413_5.png",
+        "name": "开花",
+        "seconds": 10800,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_413_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 75,
+    "_thumb": "plant_Crop_413_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_413",
+    "exp": 1530,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40413
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:7200;发芽:7200;小叶子:7200;大叶子:10800;开花:10800;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020413,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "李子",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20413,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 14400,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_35_2.png",
+        "name": "发芽",
+        "seconds": 14400,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_35_3.png",
+        "name": "小叶子",
+        "seconds": 14400,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_35_4.png",
+        "name": "大叶子",
+        "seconds": 21600,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_35_5.png",
+        "name": "开花",
+        "seconds": 21600,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_35_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 76,
+    "_thumb": "plant_Crop_35_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_35",
+    "exp": 3060,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40035
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:14400;发芽:14400;小叶子:14400;大叶子:21600;开花:21600;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020035,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "荔枝",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20035,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 2400,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_67_2.png",
+        "name": "发芽",
+        "seconds": 2400,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_67_3.png",
+        "name": "小叶子",
+        "seconds": 2400,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_67_4.png",
+        "name": "大叶子",
+        "seconds": 3600,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_67_5.png",
+        "name": "开花",
+        "seconds": 3600,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_67_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 77,
+    "_thumb": "plant_Crop_67_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_67",
+    "exp": 537,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40067
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:2400;发芽:2400;小叶子:2400;大叶子:3600;开花:3600;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020067,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "香瓜",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20067,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 4800,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_38_2.png",
+        "name": "发芽",
+        "seconds": 4800,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_38_3.png",
+        "name": "小叶子",
+        "seconds": 4800,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_38_4.png",
+        "name": "大叶子",
+        "seconds": 7200,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_38_5.png",
+        "name": "开花",
+        "seconds": 7200,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_38_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 78,
+    "_thumb": "plant_Crop_38_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_38",
+    "exp": 1074,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40038
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:4800;发芽:4800;小叶子:4800;大叶子:7200;开花:7200;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020038,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "木瓜",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20038,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 7200,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_53_2.png",
+        "name": "发芽",
+        "seconds": 7200,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_53_3.png",
+        "name": "小叶子",
+        "seconds": 7200,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_53_4.png",
+        "name": "大叶子",
+        "seconds": 10800,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_53_5.png",
+        "name": "开花",
+        "seconds": 10800,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_53_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 79,
+    "_thumb": "plant_Crop_53_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_53",
+    "exp": 1611,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40053
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:7200;发芽:7200;小叶子:7200;大叶子:10800;开花:10800;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020053,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "桂圆",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20053,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 14400,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_80_2.png",
+        "name": "发芽",
+        "seconds": 14400,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_80_3.png",
+        "name": "小叶子",
+        "seconds": 14400,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_80_4.png",
+        "name": "大叶子",
+        "seconds": 21600,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_80_5.png",
+        "name": "开花",
+        "seconds": 21600,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_80_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 80,
+    "_thumb": "plant_Crop_80_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_80",
+    "exp": 3222,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40080
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:14400;发芽:14400;小叶子:14400;大叶子:21600;开花:21600;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020080,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "月柿",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20080,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 2400,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_39_2.png",
+        "name": "发芽",
+        "seconds": 2400,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_39_3.png",
+        "name": "小叶子",
+        "seconds": 2400,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_39_4.png",
+        "name": "大叶子",
+        "seconds": 3600,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_39_5.png",
+        "name": "开花",
+        "seconds": 3600,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_39_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 81,
+    "_thumb": "plant_Crop_39_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_39",
+    "exp": 567,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40039
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:2400;发芽:2400;小叶子:2400;大叶子:3600;开花:3600;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020039,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "杨桃",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20039,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 4800,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_56_2.png",
+        "name": "发芽",
+        "seconds": 4800,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_56_3.png",
+        "name": "小叶子",
+        "seconds": 4800,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_56_4.png",
+        "name": "大叶子",
+        "seconds": 7200,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_56_5.png",
+        "name": "开花",
+        "seconds": 7200,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_56_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 82,
+    "_thumb": "plant_Crop_56_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_56",
+    "exp": 1134,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40056
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:4800;发芽:4800;小叶子:4800;大叶子:7200;开花:7200;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020056,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "哈密瓜",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20056,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 7200,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_75_2.png",
+        "name": "发芽",
+        "seconds": 7200,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_75_3.png",
+        "name": "小叶子",
+        "seconds": 7200,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_75_4.png",
+        "name": "大叶子",
+        "seconds": 10800,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_75_5.png",
+        "name": "开花",
+        "seconds": 10800,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_75_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 83,
+    "_thumb": "plant_Crop_75_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_75",
+    "exp": 1701,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40075
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:7200;发芽:7200;小叶子:7200;大叶子:10800;开花:10800;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020075,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "桑葚",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20075,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 14400,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_42_2.png",
+        "name": "发芽",
+        "seconds": 14400,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_42_3.png",
+        "name": "小叶子",
+        "seconds": 14400,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_42_4.png",
+        "name": "大叶子",
+        "seconds": 21600,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_42_5.png",
+        "name": "初熟",
+        "seconds": 21600,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_42_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 84,
+    "_thumb": "plant_Crop_42_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_42",
+    "exp": 3402,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40042
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:14400;发芽:14400;小叶子:14400;大叶子:21600;初熟:21600;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020042,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "柠檬",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20042,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 2400,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_57_2.png",
+        "name": "发芽",
+        "seconds": 2400,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_57_3.png",
+        "name": "小叶子",
+        "seconds": 2400,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_57_4.png",
+        "name": "大叶子",
+        "seconds": 3600,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_57_5.png",
+        "name": "初熟",
+        "seconds": 3600,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_57_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 85,
+    "_thumb": "plant_Crop_57_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_57",
+    "exp": 597,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40057
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:2400;发芽:2400;小叶子:2400;大叶子:3600;初熟:3600;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020057,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "芒果",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20057,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 4800,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_48_2.png",
+        "name": "发芽",
+        "seconds": 4800,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_48_3.png",
+        "name": "小叶子",
+        "seconds": 4800,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_48_4.png",
+        "name": "大叶子",
+        "seconds": 7200,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_48_5.png",
+        "name": "开花",
+        "seconds": 7200,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_48_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 86,
+    "_thumb": "plant_Crop_48_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_48",
+    "exp": 1194,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40048
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:4800;发芽:4800;小叶子:4800;大叶子:7200;开花:7200;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020048,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "杨梅",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20048,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 7200,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_58_2.png",
+        "name": "发芽",
+        "seconds": 7200,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_58_3.png",
+        "name": "小叶子",
+        "seconds": 7200,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_58_4.png",
+        "name": "大叶子",
+        "seconds": 10800,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_58_5.png",
+        "name": "开花",
+        "seconds": 10800,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_58_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 87,
+    "_thumb": "plant_Crop_58_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_58",
+    "exp": 1791,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40058
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:7200;发芽:7200;小叶子:7200;大叶子:10800;开花:10800;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020058,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "榴莲",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20058,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 14400,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_79_2.png",
+        "name": "发芽",
+        "seconds": 14400,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_79_3.png",
+        "name": "小叶子",
+        "seconds": 14400,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_79_4.png",
+        "name": "大叶子",
+        "seconds": 21600,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_79_5.png",
+        "name": "开花",
+        "seconds": 21600,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_79_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 88,
+    "_thumb": "plant_Crop_79_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_79",
+    "exp": 3582,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40079
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:14400;发芽:14400;小叶子:14400;大叶子:21600;开花:21600;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020079,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "番石榴",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20079,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 2400,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_218_2.png",
+        "name": "长枝",
+        "seconds": 2400,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_218_3.png",
+        "name": "小叶子",
+        "seconds": 2400,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_218_4.png",
+        "name": "大叶子",
+        "seconds": 3600,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_218_5.png",
+        "name": "初熟",
+        "seconds": 3600,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_218_6.png",
+        "name": "成树",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 89,
+    "_thumb": "plant_Crop_218_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_218",
+    "exp": 627,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40218
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:2400;长枝:2400;小叶子:2400;大叶子:3600;初熟:3600;成树:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020218,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "瓶子树",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20218,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 4800,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_77_2.png",
+        "name": "发芽",
+        "seconds": 4800,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_77_3.png",
+        "name": "小叶子",
+        "seconds": 4800,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_77_4.png",
+        "name": "大叶子",
+        "seconds": 7200,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_77_5.png",
+        "name": "初熟",
+        "seconds": 7200,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_77_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 90,
+    "_thumb": "plant_Crop_77_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_77",
+    "exp": 1254,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40077
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:4800;发芽:4800;小叶子:4800;大叶子:7200;初熟:7200;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020077,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "蓝莓",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20077,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 7200,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_220_2.png",
+        "name": "发芽",
+        "seconds": 7200,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_220_3.png",
+        "name": "小叶子",
+        "seconds": 7200,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_220_4.png",
+        "name": "大叶子",
+        "seconds": 10800,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_220_5.png",
+        "name": "初熟",
+        "seconds": 10800,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_220_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 91,
+    "_thumb": "plant_Crop_220_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_220",
+    "exp": 1881,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40220
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:7200;发芽:7200;小叶子:7200;大叶子:10800;初熟:10800;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020220,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "猪笼草",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20220,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 14400,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_76_2.png",
+        "name": "发芽",
+        "seconds": 14400,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_76_3.png",
+        "name": "小叶子",
+        "seconds": 14400,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_76_4.png",
+        "name": "大叶子",
+        "seconds": 21600,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_76_5.png",
+        "name": "开花",
+        "seconds": 21600,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_76_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 92,
+    "_thumb": "plant_Crop_76_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_76",
+    "exp": 3762,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40076
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:14400;发芽:14400;小叶子:14400;大叶子:21600;开花:21600;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020076,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "山竹",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20076,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 2400,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_116_2.png",
+        "name": "发芽",
+        "seconds": 2400,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_116_3.png",
+        "name": "小叶子",
+        "seconds": 2400,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_116_4.png",
+        "name": "大叶子",
+        "seconds": 3600,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_116_5.png",
+        "name": "花蕾",
+        "seconds": 3600,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_116_6.png",
+        "name": "盛开",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 93,
+    "_thumb": "plant_Crop_116_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_116",
+    "exp": 660,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40116
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:2400;发芽:2400;小叶子:2400;大叶子:3600;花蕾:3600;盛开:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020116,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "曼陀罗华",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20116,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 4800,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_126_2.png",
+        "name": "发芽",
+        "seconds": 4800,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_126_3.png",
+        "name": "小叶子",
+        "seconds": 4800,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_126_4.png",
+        "name": "大叶子",
+        "seconds": 7200,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_126_5.png",
+        "name": "初熟",
+        "seconds": 7200,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_126_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 94,
+    "_thumb": "plant_Crop_126_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_126",
+    "exp": 1320,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40126
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:4800;发芽:4800;小叶子:4800;大叶子:7200;初熟:7200;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020126,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "曼珠沙华",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20126,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 7200,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_63_2.png",
+        "name": "发芽",
+        "seconds": 7200,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_63_3.png",
+        "name": "小叶子",
+        "seconds": 7200,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_63_4.png",
+        "name": "大叶子",
+        "seconds": 10800,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_63_5.png",
+        "name": "开花",
+        "seconds": 10800,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_63_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 95,
+    "_thumb": "plant_Crop_63_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_63",
+    "exp": 1980,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40063
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:7200;发芽:7200;小叶子:7200;大叶子:10800;开花:10800;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020063,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "苦瓜",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20063,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 14400,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_221_2.png",
+        "name": "发芽",
+        "seconds": 14400,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_221_3.png",
+        "name": "小叶子",
+        "seconds": 14400,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_221_4.png",
+        "name": "大叶子",
+        "seconds": 21600,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_221_5.png",
+        "name": "花蕾",
+        "seconds": 21600,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_221_6.png",
+        "name": "盛开",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 96,
+    "_thumb": "plant_Crop_221_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_221",
+    "exp": 3960,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40221
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:14400;发芽:14400;小叶子:14400;大叶子:21600;花蕾:21600;盛开:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020221,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "天堂鸟",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20221,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 2400,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_68_2.png",
+        "name": "发芽",
+        "seconds": 2400,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_68_3.png",
+        "name": "小叶子",
+        "seconds": 2400,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_68_4.png",
+        "name": "大叶子",
+        "seconds": 3600,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_68_5.png",
+        "name": "开花",
+        "seconds": 3600,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_68_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 97,
+    "_thumb": "plant_Crop_68_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_68",
+    "exp": 693,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40068
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:2400;发芽:2400;小叶子:2400;大叶子:3600;开花:3600;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020068,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "冬瓜",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20068,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 4800,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_222_2.png",
+        "name": "发芽",
+        "seconds": 4800,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_222_3.png",
+        "name": "小叶子",
+        "seconds": 4800,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_222_4.png",
+        "name": "大叶子",
+        "seconds": 7200,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_222_5.png",
+        "name": "花蕾",
+        "seconds": 7200,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_222_6.png",
+        "name": "盛开",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 98,
+    "_thumb": "plant_Crop_222_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_222",
+    "exp": 1386,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40222
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:4800;发芽:4800;小叶子:4800;大叶子:7200;花蕾:7200;盛开:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020222,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "豹皮花",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20222,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 7200,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_78_2.png",
+        "name": "发芽",
+        "seconds": 7200,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_78_3.png",
+        "name": "小叶子",
+        "seconds": 7200,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_78_4.png",
+        "name": "大叶子",
+        "seconds": 10800,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_78_5.png",
+        "name": "初熟",
+        "seconds": 10800,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_78_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 99,
+    "_thumb": "plant_Crop_78_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_78",
+    "exp": 2079,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40078
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:7200;发芽:7200;小叶子:7200;大叶子:10800;初熟:10800;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020078,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "杏子",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20078,
+    "size": null
+  },
+  {
+    "_phases": [
+      {
+        "img": "plant_Crop_1_1.png",
+        "name": "种子",
+        "seconds": 14400,
+        "slot": "Seed"
+      },
+      {
+        "img": "plant_Crop_74_2.png",
+        "name": "发芽",
+        "seconds": 14400,
+        "slot": 2
+      },
+      {
+        "img": "plant_Crop_74_3.png",
+        "name": "小叶子",
+        "seconds": 14400,
+        "slot": 3
+      },
+      {
+        "img": "plant_Crop_74_4.png",
+        "name": "大叶子",
+        "seconds": 21600,
+        "slot": 4
+      },
+      {
+        "img": "plant_Crop_74_5.png",
+        "name": "初熟",
+        "seconds": 21600,
+        "slot": 5
+      },
+      {
+        "img": "plant_Crop_74_6.png",
+        "name": "成熟",
+        "seconds": 0,
+        "slot": 6
+      }
+    ],
+    "_rarity": 1,
+    "_seed_level": 100,
+    "_thumb": "plant_Crop_74_Seed.png",
+    "_unlisted": false,
+    "all_state_spine": null,
+    "asset_name": "Crop_74",
+    "exp": 4158,
+    "exp_alter": 0,
+    "exp_root": 0,
+    "fruit": {
+      "count": 200,
+      "id": 40074
+    },
+    "fruit_alter": 0,
+    "fruit_root": 0,
+    "grow_phases": "种子:14400;发芽:14400;小叶子:14400;大叶子:21600;初熟:21600;成熟:0;",
+    "harvestAllOffsetPosition": null,
+    "harvestAllSpineRes": null,
+    "harvestOffsetPosition": {
+      "x": -35,
+      "y": 40
+    },
+    "harvestRandom": null,
+    "id": 1020074,
+    "land_level_need": 1,
+    "mature_effect": "effect/prefab/effect_plant_maturation",
+    "mature_effect_offset": {
+      "x": 0,
+      "y": 0
+    },
+    "mutant": null,
+    "mutantEffectScale": {
+      "x": 1,
+      "y": 1
+    },
+    "name": "金桔",
+    "offsetPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "rare_plant_light_pos": null,
+    "seasons": 2,
+    "seed_id": 20074,
+    "size": null
+  }
+]

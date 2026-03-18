@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "普通土地",
+    "level": 1,
+    "yield_bonus": 0,
+    "time_reduction": 0,
+    "exp_bonus": 0
+  },
+  {
+    "id": 2,
+    "name": "红土地",
+    "level": 2,
+    "yield_bonus": 100,
+    "time_reduction": 0,
+    "exp_bonus": 0
+  },
+  {
+    "id": 3,
+    "name": "黑土地",
+    "level": 3,
+    "yield_bonus": 200,
+    "time_reduction": 10,
+    "exp_bonus": 0
+  },
+  {
+    "id": 4,
+    "name": "金土地",
+    "level": 4,
+    "yield_bonus": 300,
+    "time_reduction": 20,
+    "exp_bonus": 20
+  }
+]
