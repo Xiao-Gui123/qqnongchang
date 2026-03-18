@@ -13,13 +13,14 @@ export const LAND_REDUCTION: Record<LandType, number> = {
  * 默认作物列表
  */
 export const CROPS: Crop[] = [
-  { id: '4h-1', name: '牧草', icon: '🌱', baseDuration: 4, seasons: 1, stages: 5 },
-  { id: '4h-2', name: '白萝卜', icon: '🥬', baseDuration: 4, seasons: 1, stages: 5 },
-  { id: '8h-1', name: '胡萝卜', icon: '🥕', baseDuration: 8, seasons: 1, stages: 5 },
-  { id: '12h-1', name: '玉米', icon: '🌽', baseDuration: 12, seasons: 2, stages: 5 },
-  { id: '12h-2', name: '土豆', icon: '🥔', baseDuration: 12, seasons: 1, stages: 5 },
-  { id: '24h-1', name: '小麦', icon: '🌾', baseDuration: 24, seasons: 2, stages: 5 },
-  { id: '24h-2', name: '西瓜', icon: '🍉', baseDuration: 24, seasons: 1, stages: 5 },
+  { id: '4h-1', name: '4小时1季', icon: '🌱', baseDuration: 4, seasons: 1, stages: 5 },
+  { id: '4h-2', name: '4小时2季', icon: '🍓', baseDuration: 4, seasons: 2, stages: 5 },
+  { id: '8h-1', name: '8小时1季', icon: '🥕', baseDuration: 8, seasons: 1, stages: 5 },
+  { id: '8h-2', name: '8小时2季', icon: '🍅', baseDuration: 8, seasons: 2, stages: 5 },
+  { id: '12h-1', name: '12小时1季', icon: '🥔', baseDuration: 12, seasons: 1, stages: 5 },
+  { id: '12h-2', name: '12小时2季', icon: '🌽', baseDuration: 12, seasons: 2, stages: 5 },
+  { id: '24h-1', name: '24小时1季', icon: '🍉', baseDuration: 24, seasons: 1, stages: 5 },
+  { id: '24h-2', name: '24小时2季', icon: '🌾', baseDuration: 24, seasons: 2, stages: 5 },
 ];
 
 /**

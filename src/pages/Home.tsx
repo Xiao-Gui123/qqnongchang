@@ -2,7 +2,8 @@ import React, { useMemo } from 'react';
 import { TimeDisplay } from '../components/TimeDisplay';
 import { CropCard } from '../components/CropCard';
 import { useStore } from '../store/useStore';
-import { getAllPlantingPlans } from '../utils/calculator';
+import { useCurrentTime } from '../hooks/useCurrentTime';
+import { calculateDuration, getAllPlantingPlans } from '../utils/calculator';
 import { CROPS } from '../utils/constants';
 
 /**
@@ -11,11 +12,20 @@ import { CROPS } from '../utils/constants';
 export const Home: React.FC = () => {
   const { settings } = useStore();
   const { landType, useFertilizer } = settings;
+  const now = useCurrentTime();
 
-  // 实时获取推荐方案
+  // 实时获取推荐方案并按时长升序排序（时间越短越优先）
   const plans = useMemo(() => {
-    return getAllPlantingPlans(CROPS, new Date(), landType, useFertilizer);
-  }, [landType, useFertilizer]);
+    const rawPlans = getAllPlantingPlans(CROPS, now, landType, useFertilizer);
+    
+    // 计算每个方案的真实时长并排序
+    return rawPlans.sort((a, b) => {
+      const durationA = calculateDuration(a.crop, landType, useFertilizer, a.isSecondSeason);
+      const durationB = calculateDuration(b.crop, landType, useFertilizer, b.isSecondSeason);
+      
+      return durationA - durationB; // 升序排序，时间短的在前
+    });
+  }, [now, landType, useFertilizer]);
 
   return (
     <div className="space-y-6">
@@ -35,8 +45,8 @@ export const Home: React.FC = () => {
         </div>
         
         <div className="grid grid-cols-1 gap-4">
-          {plans.map((plan, index) => (
-            <CropCard key={`${plan.crop.id}-${plan.isSecondSeason}-${index}`} plan={plan} />
+          {plans.map((plan) => (
+            <CropCard key={`${plan.crop.id}-${plan.isSecondSeason}`} plan={plan} />
           ))}
         </div>
       </section>

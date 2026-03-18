@@ -54,7 +54,7 @@ export const Crops: React.FC = () => {
             </div>
             
             <p className="text-[11px] text-gray-400 italic text-center">
-              注：两季作物在第一次收获后，第二次成熟仅需基础时长的一半。
+              注：两季作物在第一次收获后，第二次成熟仅需基础时长的 40% (2/5)。
             </p>
           </div>
         ))}

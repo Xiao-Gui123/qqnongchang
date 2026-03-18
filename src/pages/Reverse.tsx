@@ -1,9 +1,16 @@
 import React, { useState, useMemo } from 'react';
 import { useStore } from '../store/useStore';
+import { useCurrentTime } from '../hooks/useCurrentTime';
 import { reverseSearchPlans } from '../utils/calculator';
 import { CROPS } from '../utils/constants';
 import { CropCard } from '../components/CropCard';
 import { Clock, Info } from 'lucide-react';
+
+function isSameDay(left: Date, right: Date) {
+  return left.getFullYear() === right.getFullYear()
+    && left.getMonth() === right.getMonth()
+    && left.getDate() === right.getDate();
+}
 
 /**
  * 倒推页面
@@ -11,6 +18,7 @@ import { Clock, Info } from 'lucide-react';
 export const Reverse: React.FC = () => {
   const { settings } = useStore();
   const { landType, useFertilizer } = settings;
+  const now = useCurrentTime();
 
   // 默认目标收获时间：今天 18:00
   const defaultTargetTime = useMemo(() => {
@@ -27,10 +35,17 @@ export const Reverse: React.FC = () => {
 
   const plans = useMemo(() => {
     return reverseSearchPlans(CROPS, targetTime, landType, useFertilizer);
-  }, [targetTime, landType, useFertilizer]);
+  }, [targetTime, landType, useFertilizer, now]);
 
   const handleTimeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const [hours, minutes] = e.target.value.split(':').map(Number);
+    const { value } = e.target;
+    if (!/^\d{2}:\d{2}$/.test(value)) {
+      return;
+    }
+    const [hours, minutes] = value.split(':').map(Number);
+    if (Number.isNaN(hours) || Number.isNaN(minutes)) {
+      return;
+    }
     const newDate = new Date();
     newDate.setHours(hours, minutes, 0, 0);
     // 如果选择的时间已经过了，设置为明天
@@ -65,7 +80,7 @@ export const Reverse: React.FC = () => {
             className="w-full h-12 px-4 bg-gray-50 border-none rounded-xl text-xl font-bold text-gray-800 focus:ring-2 focus:ring-green-500 transition-shadow appearance-none"
           />
           <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-gray-400">
-            {targetTime.getDate() === new Date().getDate() ? '今天' : '明天'}
+            {isSameDay(targetTime, new Date()) ? '今天' : '明天'}
           </div>
         </div>
 
@@ -85,8 +100,8 @@ export const Reverse: React.FC = () => {
 
         {plans.length > 0 ? (
           <div className="grid grid-cols-1 gap-4">
-            {plans.map((plan, index) => (
-              <CropCard key={`reverse-${plan.crop.id}-${index}`} plan={plan} />
+            {plans.map((plan) => (
+              <CropCard key={`reverse-${plan.crop.id}-${plan.isSecondSeason}`} plan={plan} />
             ))}
           </div>
         ) : (

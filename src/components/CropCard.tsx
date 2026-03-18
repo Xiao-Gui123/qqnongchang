@@ -7,20 +7,32 @@ interface CropCardProps {
   plan: PlantingPlan;
 }
 
+function getDayLabel(target: Date, now: Date) {
+  const current = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const next = new Date(current);
+  next.setDate(current.getDate() + 1);
+  const targetDay = new Date(target.getFullYear(), target.getMonth(), target.getDate());
+
+  if (targetDay.getTime() === current.getTime()) return '今天';
+  if (targetDay.getTime() === next.getTime()) return '明天';
+  return `${target.getMonth() + 1}/${target.getDate()}`;
+}
+
 /**
  * 作物卡片组件
  */
 export const CropCard: React.FC<CropCardProps> = ({ plan }) => {
-  const { crop, harvestTime, isSecondSeason, landType, useFertilizer } = plan;
+  const { crop, isSecondSeason, landType, useFertilizer } = plan;
 
-  const formatHarvestTime = (date: Date) => {
-    return date.toLocaleTimeString('zh-CN', {
-      month: 'numeric',
-      day: 'numeric',
+  const formatTime = (date: Date) => {
+    const now = new Date();
+    const prefix = getDayLabel(date, now);
+    
+    return `${prefix} ${date.toLocaleTimeString('zh-CN', {
       hour: '2-digit',
       minute: '2-digit',
       hour12: false,
-    });
+    })}`;
   };
 
   const landColors = {
@@ -34,6 +46,8 @@ export const CropCard: React.FC<CropCardProps> = ({ plan }) => {
     black: '黑土地(-10%)',
     gold: '金土地(-20%)',
   };
+
+  const actionText = isSecondSeason ? '收获并进入下一季' : '种植';
 
   return (
     <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 flex flex-col space-y-3 active:scale-[0.98] transition-transform">
@@ -61,32 +75,37 @@ export const CropCard: React.FC<CropCardProps> = ({ plan }) => {
 
       <div className="grid grid-cols-2 gap-2 py-2 border-y border-gray-50">
         <div className="flex items-center space-x-2">
-          <Clock size={14} className="text-gray-400" />
+          <Calendar size={14} className="text-blue-500" />
           <div className="flex flex-col">
-            <span className="text-[10px] text-gray-400 uppercase">预计收获</span>
-            <span className="text-xs font-bold text-gray-700">{formatHarvestTime(harvestTime)}</span>
+            <span className="text-[10px] text-gray-400 uppercase">建议{actionText}</span>
+            <span className="text-xs font-bold text-gray-700">{formatTime(plan.plantTime)}</span>
           </div>
         </div>
         <div className="flex items-center space-x-2">
-          <Zap size={14} className={clsx(useFertilizer ? "text-amber-500" : "text-gray-300")} />
+          <Clock size={14} className="text-green-500" />
           <div className="flex flex-col">
-            <span className="text-[10px] text-gray-400 uppercase">化肥使用</span>
-            <span className={clsx("text-xs font-bold", useFertilizer ? "text-amber-600" : "text-gray-400")}>
-              {useFertilizer ? "已催熟(-1段)" : "未使用"}
-            </span>
+            <span className="text-[10px] text-gray-400 uppercase">预计收获时间</span>
+            <span className="text-xs font-bold text-gray-700">{formatTime(plan.harvestTime)}</span>
           </div>
         </div>
       </div>
 
-      <div className="flex items-center justify-between text-[10px] text-gray-400">
-        <div className="flex items-center space-x-1">
-          <Calendar size={12} />
-          <span>建议操作: 立即种植</span>
-        </div>
-        {plan.plantTime > new Date() && (
-          <span className="text-green-600 font-bold">
-            等待 {Math.ceil((plan.plantTime.getTime() - new Date().getTime()) / (1000 * 60))} 分钟后种植
+      <div className="flex items-center justify-between pt-1">
+        <div className="flex items-center space-x-2">
+          <Zap size={14} className={clsx(useFertilizer ? "text-amber-500" : "text-gray-300")} />
+          <span className={clsx("text-[10px] font-bold", useFertilizer ? "text-amber-600" : "text-gray-400")}>
+            {useFertilizer ? "化肥催熟(-1段)" : "未使用化肥"}
           </span>
+        </div>
+        
+        {plan.plantTime > new Date() ? (
+          <div className="px-2 py-0.5 bg-green-50 text-green-600 text-[10px] font-black rounded border border-green-100">
+            等待 {Math.ceil((plan.plantTime.getTime() - new Date().getTime()) / (1000 * 60))} 分钟后{actionText}
+          </div>
+        ) : (
+          <div className="px-2 py-0.5 bg-blue-50 text-blue-600 text-[10px] font-black rounded border border-blue-100">
+            建议立即{actionText}
+          </div>
         )}
       </div>
     </div>

@@ -16,8 +16,6 @@ export interface Crop {
   seasons: 1 | 2;
   /** 成熟阶段数（一季5段，二季收获后剩余2段） */
   stages: number;
-  /** 收益（可选） */
-  value?: number;
 }
 
 /**
