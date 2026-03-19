@@ -12,8 +12,6 @@ export interface LandGrid {
 interface FarmState {
   // 玩家配置
   userLevel: number;
-  sleepStart: string; // "23:00"
-  sleepEnd: string;   // "08:00"
   strategy: 'exp' | 'coin'; // 偏好策略
   
   // 农场土地状态 (假设初始有 24 块地)
@@ -21,7 +19,6 @@ interface FarmState {
 
   // Actions
   setUserLevel: (level: number) => void;
-  setSleepTime: (start: string, end: string) => void;
   setStrategy: (strategy: 'exp' | 'coin') => void;
   
   // 土地管理 Actions
@@ -43,13 +40,10 @@ export const useFarmStore = create<FarmState>()(
   persist(
     (set) => ({
       userLevel: 30, // 默认等级
-      sleepStart: '23:00',
-      sleepEnd: '08:00',
       strategy: 'exp',
       lands: initialLands,
 
       setUserLevel: (level) => set({ userLevel: level }),
-      setSleepTime: (start, end) => set({ sleepStart: start, sleepEnd: end }),
       setStrategy: (strategy) => set({ strategy }),
 
       updateLandLevel: (id, level) =>

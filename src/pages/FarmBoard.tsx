@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useFarmStore } from '../store/useFarmStore';
-import { ShieldAlert, Pickaxe } from 'lucide-react';
+import { ShieldAlert, Pickaxe, Trash2 } from 'lucide-react';
 import { clsx } from 'clsx';
 import plantsData from '../data/plants.json';
 import { Plant, calculateRealGrowTime } from '../utils/farmCore';
@@ -108,10 +108,25 @@ export const FarmBoard: React.FC = () => {
                   const nextLevel = land.landLevel >= 4 ? 1 : land.landLevel + 1;
                   updateLandLevel(land.id, nextLevel);
                 }}
-                className="absolute -top-1 -right-1 w-4 h-4 bg-white rounded-full shadow border border-gray-200 text-[8px] font-bold flex items-center justify-center text-gray-600 z-10"
+                className="absolute -top-1 -right-1 w-4 h-4 bg-white rounded-full shadow border border-gray-200 text-[8px] font-bold flex items-center justify-center text-gray-600 z-10 hover:bg-gray-50"
               >
                 {getLandName(land.landLevel)}
               </button>
+
+              {/* 铲除作物按钮（仅在有作物且未成熟时显示） */}
+              {land.plantedPlantId && (
+                <button
+                  onClick={() => {
+                    if (window.confirm('确定要铲除这个作物吗？')) {
+                      harvestLand(land.id);
+                    }
+                  }}
+                  className="absolute -top-1 -left-1 w-4 h-4 bg-red-100 rounded-full shadow border border-red-200 text-red-600 flex items-center justify-center z-10 hover:bg-red-200 transition-colors"
+                  title="铲除作物"
+                >
+                  <Trash2 size={8} />
+                </button>
+              )}
 
               {renderLandState(land)}
             </div>

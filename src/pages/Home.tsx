@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from 'react';
 import { useFarmStore } from '../store/useFarmStore';
 import { recommendPlants } from '../utils/farmCore';
-import { Clock, TrendingUp, Coins, ShieldAlert, Zap, Search } from 'lucide-react';
+import { TrendingUp, Coins, Search, Zap } from 'lucide-react';
 import { clsx } from 'clsx';
 import { useCurrentTime } from '../hooks/useCurrentTime';
 
@@ -9,9 +9,15 @@ import { useCurrentTime } from '../hooks/useCurrentTime';
  * 智能推荐页面
  */
 export const Home: React.FC = () => {
-  const { userLevel, sleepStart, sleepEnd, strategy, lands, setStrategy } = useFarmStore();
+  const { userLevel, strategy, lands, setStrategy, plantOnLand } = useFarmStore();
   const now = useCurrentTime();
   const [searchTerm, setSearchTerm] = useState('');
+  const [toastMessage, setToastMessage] = useState('');
+
+  const showToast = (msg: string) => {
+    setToastMessage(msg);
+    setTimeout(() => setToastMessage(''), 2000);
+  };
 
   const predominantLandLevel = useMemo(() => {
     const counts = [0, 0, 0, 0, 0];
@@ -32,8 +38,6 @@ export const Home: React.FC = () => {
       userLevel,
       landLevel: predominantLandLevel,
       strategy,
-      sleepStart,
-      sleepEnd,
       limit: 20
     });
 
@@ -41,7 +45,7 @@ export const Home: React.FC = () => {
       recs = recs.filter(r => r.plant.name.includes(searchTerm));
     }
     return recs;
-  }, [userLevel, predominantLandLevel, strategy, sleepStart, sleepEnd, now.getMinutes(), searchTerm]);
+  }, [userLevel, predominantLandLevel, strategy, now.getMinutes(), searchTerm]);
 
   const formatTime = (seconds: number) => {
     const h = Math.floor(seconds / 3600);
@@ -69,16 +73,6 @@ export const Home: React.FC = () => {
           </div>
         </div>
       </header>
-
-      <div className="bg-indigo-50 border border-indigo-100 rounded-xl p-3 flex items-start space-x-3">
-        <Clock className="text-indigo-400 mt-0.5 flex-shrink-0" size={16} />
-        <div>
-          <p className="text-xs font-bold text-indigo-800">睡眠保护已开启</p>
-          <p className="text-[10px] text-indigo-600 mt-0.5">
-            算法已自动降权在 {sleepStart} - {sleepEnd} 期间成熟的作物，防止被偷。
-          </p>
-        </div>
-      </div>
 
       <section className="space-y-4">
         <div className="flex flex-col space-y-3 px-1">
@@ -119,9 +113,8 @@ export const Home: React.FC = () => {
             <div 
               key={rec.plant.id} 
               className={clsx(
-                "bg-white rounded-2xl p-4 shadow-sm border transition-all",
-                rec.isSleepConflict ? "border-red-200 opacity-75" : "border-gray-100 hover:border-green-300",
-                index === 0 && !rec.isSleepConflict ? "ring-2 ring-green-400 ring-offset-2" : ""
+                "bg-white rounded-2xl p-4 shadow-sm border transition-all hover:border-green-300",
+                index === 0 ? "ring-2 ring-green-400 ring-offset-2" : ""
               )}
             >
               <div className="flex justify-between items-start">
@@ -165,26 +158,47 @@ export const Home: React.FC = () => {
                   </div>
                 </div>
                 
-                <div className="text-right">
-                  <div className="text-sm font-black text-green-600">
-                    {rec.plant.seasons > 1 ? '第1季: ' : ''}{formatClock(rec.allMatureTimes[0])}
+                <div className="text-right flex gap-4">
+                  {/* 自然成熟时间列 */}
+                  <div className="flex flex-col items-end border-r border-gray-100 pr-4">
+                    <div className="text-[10px] text-gray-400 mb-1">自然成熟时间</div>
+                    <div className="text-sm font-black text-green-600">
+                      {rec.plant.seasons > 1 ? '第1季: ' : ''}{formatClock(rec.allMatureTimes[0])}
+                    </div>
+                    {rec.plant.seasons > 1 && (
+                      <div className="text-[10px] text-green-700 mt-0.5 font-bold">
+                        第2季: {formatClock(rec.allMatureTimes[1])}
+                      </div>
+                    )}
+                    {rec.plant.seasons > 2 && (
+                      <div className="text-[10px] text-gray-500 mt-0.5">
+                        ...至 第{rec.plant.seasons}季: {formatClock(rec.allMatureTimes[rec.allMatureTimes.length - 1])}
+                      </div>
+                    )}
                   </div>
-                  {rec.plant.seasons > 1 && (
-                    <div className="text-[10px] text-green-700 mt-0.5 font-bold">
-                      第2季: {formatClock(rec.allMatureTimes[1])}
+
+                  {/* 化肥时间列 */}
+                  <div className="flex flex-col items-end">
+                    <div className="text-[10px] text-amber-500 mb-1 flex items-center">
+                      <Zap size={10} className="mr-0.5" /> 施肥(秒收)时间
                     </div>
-                  )}
-                  {rec.plant.seasons > 2 && (
-                    <div className="text-[10px] text-gray-500 mt-0.5">
-                      ...至 第{rec.plant.seasons}季: {formatClock(rec.allMatureTimes[rec.allMatureTimes.length - 1])}
+                    <div className="text-sm font-black text-amber-500">
+                      {rec.plant.seasons > 1 ? '第1季: ' : ''}{formatClock(rec.allFertilizerTimes[0])}
                     </div>
-                  )}
-                  {rec.isSleepConflict && (
-                    <div className="flex items-center justify-end text-[10px] text-red-500 mt-1 font-medium">
-                      <ShieldAlert size={12} className="mr-1" />
-                      睡眠期成熟警告
+                    {rec.plant.seasons > 1 && (
+                      <div className="text-[10px] text-amber-600 mt-0.5 font-bold">
+                        第2季: {formatClock(rec.allFastMatureTimes[1])}
+                      </div>
+                    )}
+                    {rec.plant.seasons > 2 && (
+                      <div className="text-[10px] text-amber-600/70 mt-0.5">
+                        ...至 第{rec.plant.seasons}季: {formatClock(rec.allFastMatureTimes[rec.allFastMatureTimes.length - 1])}
+                      </div>
+                    )}
+                    <div className="text-[9px] text-amber-500/70 mt-1 text-right">
+                      (第一季跳过 {formatTime(rec.times.lastPhaseSeconds)})
                     </div>
-                  )}
+                  </div>
                 </div>
               </div>
 
@@ -208,10 +222,36 @@ export const Home: React.FC = () => {
                   </div>
                 </div>
               </div>
+
+              {/* 种植到农场按钮 */}
+              <div className="mt-3 flex justify-end">
+                <button 
+                  onClick={() => {
+                    // 找到第一块空地种下
+                    const emptyLand = lands.find(l => !l.plantedPlantId);
+                    if (emptyLand) {
+                      plantOnLand(emptyLand.id, rec.plant.id);
+                      showToast(`已成功种植【${rec.plant.name}】`);
+                    } else {
+                      showToast('农场没有空地了，请先扩建或收获！');
+                    }
+                  }}
+                  className="flex items-center px-3 py-1.5 bg-green-500 hover:bg-green-600 text-white text-xs font-bold rounded-lg transition-colors"
+                >
+                  一键种植
+                </button>
+              </div>
             </div>
           ))}
         </div>
       </section>
+
+      {/* 轻量提示框 */}
+      {toastMessage && (
+        <div className="fixed bottom-24 left-1/2 -translate-x-1/2 bg-gray-800 text-white px-4 py-2 rounded-full shadow-lg text-sm z-50 animate-fade-in-up">
+          {toastMessage}
+        </div>
+      )}
     </div>
   );
 };

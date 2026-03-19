@@ -11,9 +11,6 @@ export const Settings: React.FC = () => {
   const { 
     userLevel, 
     setUserLevel, 
-    sleepStart, 
-    sleepEnd, 
-    setSleepTime, 
     strategy, 
     setStrategy,
     batchUpdateLands 
@@ -60,40 +57,6 @@ export const Settings: React.FC = () => {
               min={1}
               max={200}
             />
-          </div>
-        </div>
-      </section>
-
-      {/* 作息时间保护 */}
-      <section className="space-y-4">
-        <div className="flex items-center space-x-2 text-gray-700 font-bold px-1">
-          <Clock size={18} className="text-indigo-500" />
-          <span>防偷菜作息保护</span>
-        </div>
-        <div className="bg-white p-4 rounded-2xl shadow-sm border border-gray-100 space-y-4">
-          <p className="text-xs text-gray-500">
-            设置您的睡眠时间段。推荐算法将自动排除那些会在您睡觉期间成熟的作物。
-          </p>
-          <div className="flex items-center justify-between space-x-4">
-            <div className="flex-1">
-              <label className="block text-xs font-bold text-gray-500 mb-1">入睡时间</label>
-              <input 
-                type="time" 
-                value={sleepStart}
-                onChange={(e) => setSleepTime(e.target.value, sleepEnd)}
-                className="w-full bg-gray-50 border border-gray-200 rounded-lg py-2 px-3 font-medium text-gray-700"
-              />
-            </div>
-            <div className="text-gray-400 font-bold mt-5">至</div>
-            <div className="flex-1">
-              <label className="block text-xs font-bold text-gray-500 mb-1">起床时间</label>
-              <input 
-                type="time" 
-                value={sleepEnd}
-                onChange={(e) => setSleepTime(sleepStart, e.target.value)}
-                className="w-full bg-gray-50 border border-gray-200 rounded-lg py-2 px-3 font-medium text-gray-700"
-              />
-            </div>
           </div>
         </div>
       </section>

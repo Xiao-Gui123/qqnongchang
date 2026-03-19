@@ -46,15 +46,15 @@ const lands = landsData as Land[];
 // 提取化肥数据
 // items.json 中 _category_id: "07" 是化肥
 export const fertilizers: Fertilizer[] = itemsData
-  .filter((item: any) => item._category_id === '07')
+  .filter((item: any) => item._category_id === '07' && !item.name.includes('有机')) // 暂只考虑普通化肥，有机化肥用于高级作物
   .map((item: any) => {
-    // 简单解析：普通化肥减20分钟(1200秒)，高速1小时(3600秒)，极速2.5小时(9000秒)
     let effect_time = 0;
-    if (item.name.includes('普通化肥')) effect_time = 1200;
-    else if (item.name.includes('高速化肥')) effect_time = 3600;
-    else if (item.name.includes('极速化肥')) effect_time = 9000;
-    else if (item.name.includes('飞速化肥')) effect_time = 5.5 * 3600; // 假设
-    
+    // 根据描述解析真实减少的时间
+    if (item.name.includes('1小时')) effect_time = 3600;
+    else if (item.name.includes('4小时')) effect_time = 4 * 3600;
+    else if (item.name.includes('8小时')) effect_time = 8 * 3600;
+    else if (item.name.includes('12小时')) effect_time = 12 * 3600;
+
     return {
       id: item.id,
       name: item.name,
@@ -73,6 +73,8 @@ export function calculateRealGrowTime(plant: Plant, landLevel: number): {
   firstSeasonSeconds: number;
   subsequentSeasonSeconds: number;
   totalSeconds: number;
+  lastPhaseSeconds: number;
+  subsequentLastPhaseSeconds: number;
 } {
   const land = lands.find(l => l.level === landLevel) || lands[0];
   const reductionRatio = land.time_reduction / 100;
@@ -81,23 +83,41 @@ export function calculateRealGrowTime(plant: Plant, landLevel: number): {
   const baseFirstSeason = plant._phases.reduce((sum, phase) => sum + phase.seconds, 0);
   const firstSeasonSeconds = Math.round(baseFirstSeason * (1 - reductionRatio));
 
-  // 第二季及以后的时间：通常是除去“种子”和“发芽”等前期阶段，从“开花”或“初熟”开始算
-  // 这里做一个简化逻辑：假设后续季数的时间大约是第一季最后两个阶段的时间总和（可以根据真实游戏设定调整）
+  // 获取最后一个有效生长阶段（排除秒数为0的“成熟”阶段）
+  let baseLastPhase = 0;
+  for (let i = plant._phases.length - 1; i >= 0; i--) {
+    if (plant._phases[i].seconds > 0) {
+      baseLastPhase = plant._phases[i].seconds;
+      break;
+    }
+  }
+  const lastPhaseSeconds = Math.round(baseLastPhase * (1 - reductionRatio));
+
+  // 第二季及以后的时间
   let baseSubsequent = 0;
+  let baseSubsequentLastPhase = 0;
+  
   if (plant.seasons > 1) {
     const phasesCount = plant._phases.length;
     // 取最后两个带时间的阶段作为后续季的生长时间（例如：开花+成熟，或大叶子+成熟）
     const phase1 = plant._phases[phasesCount - 2]?.seconds || 0;
     const phase2 = plant._phases[phasesCount - 3]?.seconds || 0;
     baseSubsequent = phase1 + phase2;
+    // 后续季的最后一个阶段时间（通常是 phase1）
+    baseSubsequentLastPhase = phase1;
+    
     // 如果计算出来是 0，给个保底值（第一季时间的一半）
-    if (baseSubsequent === 0) baseSubsequent = baseFirstSeason * 0.5;
+    if (baseSubsequent === 0) {
+      baseSubsequent = baseFirstSeason * 0.5;
+      baseSubsequentLastPhase = baseLastPhase;
+    }
   }
   const subsequentSeasonSeconds = Math.round(baseSubsequent * (1 - reductionRatio));
+  const subsequentLastPhaseSeconds = Math.round(baseSubsequentLastPhase * (1 - reductionRatio));
 
   const totalSeconds = firstSeasonSeconds + subsequentSeasonSeconds * (plant.seasons - 1);
 
-  return { firstSeasonSeconds, subsequentSeasonSeconds, totalSeconds };
+  return { firstSeasonSeconds, subsequentSeasonSeconds, totalSeconds, lastPhaseSeconds, subsequentLastPhaseSeconds };
 }
 
 /**
@@ -133,47 +153,17 @@ export function calculateYield(plant: Plant, landLevel: number) {
 }
 
 /**
- * 判断给定时间范围是否与玩家的睡眠时间有重叠（成熟点在睡眠期）
- * @param matureTime 预计成熟的 Date 对象
- * @param sleepStart 睡眠开始时间 "23:00"
- * @param sleepEnd 睡眠结束时间 "08:00"
- */
-export function isMatureInSleepTime(matureTime: Date, sleepStart: string, sleepEnd: string): boolean {
-  if (!sleepStart || !sleepEnd) return false;
-  
-  const mHours = matureTime.getHours();
-  const mMins = matureTime.getMinutes();
-  const mTimeVal = mHours + mMins / 60;
-
-  const [sHours, sMins] = sleepStart.split(':').map(Number);
-  const startVal = sHours + sMins / 60;
-
-  const [eHours, eMins] = sleepEnd.split(':').map(Number);
-  const endVal = eHours + eMins / 60;
-
-  if (startVal > endVal) {
-    // 跨天，如 23:00 - 08:00
-    return mTimeVal >= startVal || mTimeVal <= endVal;
-  } else {
-    // 不跨天，如 01:00 - 08:00
-    return mTimeVal >= startVal && mTimeVal <= endVal;
-  }
-}
-
-/**
  * 核心推荐算法
  */
 export interface RecommendOptions {
   userLevel: number;
   landLevel: number;
   strategy: 'exp' | 'coin';
-  sleepStart?: string;
-  sleepEnd?: string;
   limit?: number;
 }
 
 export function recommendPlants(options: RecommendOptions) {
-  const { userLevel, landLevel, strategy, sleepStart, sleepEnd, limit = 10 } = options;
+  const { userLevel, landLevel, strategy, limit = 10 } = options;
   const now = new Date();
 
   const results = plants
@@ -182,24 +172,39 @@ export function recommendPlants(options: RecommendOptions) {
     .map(plant => {
       const times = calculateRealGrowTime(plant, landLevel);
       
-      // 睡眠冲突检测：检查第一季的成熟时间
       const matureTime = new Date(now.getTime() + times.firstSeasonSeconds * 1000);
-
-      // 计算所有季数的收获时间点
+      
+      // 计算到达最后一个阶段的时间（也就是什么时候该打化肥了）
+      const firstSeasonFertilizerTime = new Date(now.getTime() + (times.firstSeasonSeconds - times.lastPhaseSeconds) * 1000);
+      
+      // 计算所有季数的收获时间点和施肥时间点
       const allMatureTimes: Date[] = [matureTime];
+      const allFertilizerTimes: Date[] = [firstSeasonFertilizerTime];
+      
+      // 如果使用化肥跳过最后一阶段，后续的时间推算（用于给高阶玩家参考的极速路线）
+      const allFastMatureTimes: Date[] = [firstSeasonFertilizerTime];
+
       if (plant.seasons > 1) {
         for (let i = 1; i < plant.seasons; i++) {
+          // 正常收获路线的下一季
           const nextMatureTime = new Date(
             allMatureTimes[i - 1].getTime() + times.subsequentSeasonSeconds * 1000
           );
           allMatureTimes.push(nextMatureTime);
+          
+          // 正常收获路线下，下一季该施肥的时间点
+          const nextFertilizerTime = new Date(
+            nextMatureTime.getTime() - times.subsequentLastPhaseSeconds * 1000
+          );
+          allFertilizerTimes.push(nextFertilizerTime);
+          
+          // 极速化肥路线的下一季收获时间（每一季都在施肥点收掉）
+          const nextFastMatureTime = new Date(
+            allFastMatureTimes[i - 1].getTime() + (times.subsequentSeasonSeconds - times.subsequentLastPhaseSeconds) * 1000
+          );
+          allFastMatureTimes.push(nextFastMatureTime);
         }
       }
-
-      // 检查是否有任何一季的成熟时间在睡眠期内
-      const isSleepConflict = (sleepStart && sleepEnd) 
-        ? allMatureTimes.some(t => isMatureInSleepTime(t, sleepStart, sleepEnd))
-        : false;
 
       const yields = calculateYield(plant, landLevel);
 
@@ -213,7 +218,8 @@ export function recommendPlants(options: RecommendOptions) {
         times,
         matureTime,
         allMatureTimes,
-        isSleepConflict,
+        allFertilizerTimes,
+        allFastMatureTimes,
         yields,
         expPerHour,
         coinPerHour
@@ -222,11 +228,7 @@ export function recommendPlants(options: RecommendOptions) {
 
   // 排序逻辑
   results.sort((a, b) => {
-    // 1. 睡眠冲突的排到最后
-    if (a.isSleepConflict && !b.isSleepConflict) return 1;
-    if (!a.isSleepConflict && b.isSleepConflict) return -1;
-    
-    // 2. 根据策略排序
+    // 根据策略排序
     if (strategy === 'exp') {
       return b.expPerHour - a.expPerHour;
     } else {
@@ -234,17 +236,33 @@ export function recommendPlants(options: RecommendOptions) {
     }
   });
 
-  return results.slice(0, limit);
+  // 优化：相同时间档位（误差在30分钟内视为同一档）只推荐收益最高的一个
+  const groupedResults: typeof results = [];
+  for (const item of results) {
+    const similarItemExists = groupedResults.some(g => 
+      Math.abs(g.times.firstSeasonSeconds - item.times.firstSeasonSeconds) <= 1800 // 30分钟(1800秒)内的视为同时间档
+    );
+    
+    if (!similarItemExists) {
+      groupedResults.push(item);
+    }
+    
+    if (groupedResults.length >= limit) break;
+  }
+
+  return groupedResults;
 }
 
 /**
- * 贪心算法：计算化肥最优解
+ * 计算跨越阶段所需的化肥（即：如果直接秒掉前几个阶段，需要多少化肥，剩余多少时间）
+ * 游戏规则：一个阶段不管多长，如果有极速化肥或者多包化肥可以直接秒掉这个阶段。
+ * 但为了简化并提供最实用的建议，我们计算：要缩短 targetSeconds，最少需要打什么化肥。
  * @param targetSeconds 目标还需要缩短的秒数
  */
 export function calculateBestFertilizerCombo(targetSeconds: number) {
   let remaining = targetSeconds;
   const combo: { fertilizer: Fertilizer, count: number }[] = [];
-  
+
   for (const fert of fertilizers) {
     if (remaining <= 0) break;
     const count = Math.floor(remaining / fert.effect_time);
@@ -253,9 +271,9 @@ export function calculateBestFertilizerCombo(targetSeconds: number) {
       remaining -= count * fert.effect_time;
     }
   }
-  
-  // 如果还有剩余，用最小的化肥补齐
-  if (remaining > 0 && fertilizers.length > 0) {
+
+  // 如果还有剩余时间（且大于10分钟），用最小的化肥补齐
+  if (remaining > 600 && fertilizers.length > 0) {
     const smallest = fertilizers[fertilizers.length - 1];
     const existing = combo.find(c => c.fertilizer.id === smallest.id);
     if (existing) {
@@ -266,4 +284,71 @@ export function calculateBestFertilizerCombo(targetSeconds: number) {
   }
 
   return combo;
+}
+
+/**
+ * 倒推算法：根据目标收获时间，反推当前该种什么作物，以及需要多少化肥
+ */
+export function reversePlanPlants(targetTime: Date, userLevel: number, landLevel: number) {
+  const now = new Date();
+  const targetSeconds = Math.floor((targetTime.getTime() - now.getTime()) / 1000);
+
+  if (targetSeconds <= 0) return []; // 目标时间已过
+
+  const results = plants
+    .filter(p => p._seed_level <= userLevel)
+    .filter(p => p.land_level_need <= landLevel)
+    .map(plant => {
+      const times = calculateRealGrowTime(plant, landLevel);
+      const diffSeconds = times.firstSeasonSeconds - targetSeconds;
+
+      let status: 'perfect' | 'need_fertilizer' | 'too_late' | 'too_early' = 'perfect';
+      let fertilizerCombo: { fertilizer: Fertilizer, count: number }[] = [];
+      let delaySecondsToPlant = 0;
+
+      // 允许误差 5 分钟 (300秒) 算 perfect
+      if (Math.abs(diffSeconds) <= 300) {
+        status = 'perfect';
+      } else if (diffSeconds > 300) {
+        // 作物生长时间 > 剩余时间，说明来不及了，需要打化肥
+        fertilizerCombo = calculateBestFertilizerCombo(diffSeconds);
+        // 如果打了所有能打的化肥还是不够（这里暂不设上限，只是计算需要多少）
+        status = 'need_fertilizer';
+      } else {
+        // 作物生长时间 < 剩余时间，说明种早了，需要等一会再种
+        status = 'too_early';
+        delaySecondsToPlant = Math.abs(diffSeconds);
+      }
+
+      return {
+        plant,
+        times,
+        status,
+        fertilizerCombo,
+        delaySecondsToPlant,
+        diffSeconds
+      };
+    });
+
+  // 排序逻辑：
+  // 1. 完美的排最前面
+  // 2. 需要化肥的次之（按需要的化肥成本/数量从小到大）
+  // 3. 需要等待的排最后（因为需要定闹钟稍后再种，比较麻烦）
+  results.sort((a, b) => {
+    const statusWeight = { perfect: 0, need_fertilizer: 1, too_early: 2, too_late: 3 };
+    if (statusWeight[a.status] !== statusWeight[b.status]) {
+      return statusWeight[a.status] - statusWeight[b.status];
+    }
+    
+    if (a.status === 'need_fertilizer') {
+      return a.diffSeconds - b.diffSeconds; // 需要补的时间越少越好
+    }
+    if (a.status === 'too_early') {
+      return a.delaySecondsToPlant - b.delaySecondsToPlant; // 等待时间越短越好
+    }
+    
+    return 0;
+  });
+
+  return results.slice(0, 20); // 只取前20个方案
 }
