@@ -13,7 +13,6 @@ export const Home: React.FC = () => {
   const now = useCurrentTime();
   const [searchTerm, setSearchTerm] = useState('');
 
-  // 假设我们以农场里占比最多的土地类型作为基准来进行推荐
   const predominantLandLevel = useMemo(() => {
     const counts = [0, 0, 0, 0, 0];
     lands.forEach(l => counts[l.landLevel]++);
@@ -42,7 +41,7 @@ export const Home: React.FC = () => {
       recs = recs.filter(r => r.plant.name.includes(searchTerm));
     }
     return recs;
-  }, [userLevel, predominantLandLevel, strategy, sleepStart, sleepEnd, now.getMinutes(), searchTerm]); // 每分钟更新一次推荐
+  }, [userLevel, predominantLandLevel, strategy, sleepStart, sleepEnd, now.getMinutes(), searchTerm]);
 
   const formatTime = (seconds: number) => {
     const h = Math.floor(seconds / 3600);
@@ -71,7 +70,6 @@ export const Home: React.FC = () => {
         </div>
       </header>
 
-      {/* 睡眠保护提示 */}
       <div className="bg-indigo-50 border border-indigo-100 rounded-xl p-3 flex items-start space-x-3">
         <Clock className="text-indigo-400 mt-0.5 flex-shrink-0" size={16} />
         <div>
@@ -128,11 +126,18 @@ export const Home: React.FC = () => {
             >
               <div className="flex justify-between items-start">
                 <div className="flex items-center space-x-3">
-                  {/* 暂时用名字首字母代替图片 */}
-                  <div className="w-12 h-12 bg-green-50 rounded-xl flex flex-col items-center justify-center text-green-600 font-bold border border-green-100 relative">
-                    <span className="text-lg">{rec.plant.name.substring(0, 1)}</span>
+                  <div className="w-12 h-12 bg-green-50 rounded-xl flex flex-col items-center justify-center text-green-600 font-bold border border-green-100 relative overflow-hidden">
+                    <img 
+                      src={`/qqnongchang/images/plants/${rec.plant._thumb}`} 
+                      alt={rec.plant.name}
+                      className="w-8 h-8 object-contain drop-shadow-sm"
+                      onError={(e) => {
+                        (e.target as HTMLImageElement).style.display = 'none';
+                        e.currentTarget.parentElement!.innerHTML = `<span class="text-lg">${rec.plant.name.substring(0, 1)}</span>`;
+                      }}
+                    />
                     {rec.plant.seasons > 1 && (
-                      <span className="absolute -bottom-2 bg-green-500 text-white text-[9px] px-1.5 py-0.5 rounded-full whitespace-nowrap">
+                      <span className="absolute -bottom-1 bg-green-500 text-white text-[8px] px-1 py-0.5 rounded-t-md whitespace-nowrap opacity-90">
                         {rec.plant.seasons}季
                       </span>
                     )}
@@ -165,7 +170,7 @@ export const Home: React.FC = () => {
                     {rec.plant.seasons > 1 ? '第1季: ' : ''}{formatClock(rec.allMatureTimes[0])}
                   </div>
                   {rec.plant.seasons > 1 && (
-                    <div className="text-[10px] text-green-700 mt-0.5">
+                    <div className="text-[10px] text-green-700 mt-0.5 font-bold">
                       第2季: {formatClock(rec.allMatureTimes[1])}
                     </div>
                   )}
