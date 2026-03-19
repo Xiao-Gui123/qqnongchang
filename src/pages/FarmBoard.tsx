@@ -44,8 +44,8 @@ export const FarmBoard: React.FC = () => {
     const plant = plantsData.find(p => p.id === land.plantedPlantId) as unknown as Plant;
     if (!plant) return null;
 
-    const totalSeconds = calculateRealGrowTime(plant, land.landLevel);
-    const elapsedSeconds = Math.floor((now - land.plantTime) / 1000);
+    const totalSeconds = calculateRealGrowTime(plant, land.landLevel).totalSeconds;
+    const elapsedSeconds = Math.floor((now - (land.plantTime || 0)) / 1000);
     const remainingSeconds = totalSeconds - elapsedSeconds;
 
     if (remainingSeconds <= 0) {

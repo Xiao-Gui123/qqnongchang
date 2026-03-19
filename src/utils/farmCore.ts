@@ -19,6 +19,8 @@ export interface Plant {
   fruit?: { count: number, id: number };
   land_level_need: number;
   mutant?: string;
+  seed_id?: number;
+  _thumb?: string;
 }
 
 export interface Land {
